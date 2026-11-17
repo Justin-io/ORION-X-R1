@@ -44,3 +44,4 @@ for fp in board.GetFootprints():
 
 pcbnew.SaveBoard(PCB_PATH, board)
 print("Board saved with updated 3D models.")
+
