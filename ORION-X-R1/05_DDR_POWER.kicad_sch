@@ -1,31 +1,363 @@
 (kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-	(uuid "a880f408-55dd-44a5-80c3-d0a7e1a6b476") (paper "A3")
-	(title_block (title "ORION-X R1.0: DDR3L Memory Power & VTT Termination") (date "2026-11-17") (rev "R1.0") (company "Google DeepMind / ORION"))
-	(symbol (lib_id "ORION_POWER:TPSM63610RDHR") (at 100.00 80.00 0) (unit 1)
-		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-		(uuid "0982819d-b76b-4187-bd93-8bce526a55ad")
-		(property "Reference" "U6" (at 100.00 75.00 0) (effects (font (size 1.27 1.27))))
-		(property "Value" "TPSM63610RDHR" (at 100.00 85.00 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "ORION_POWER:TI_QFN-21_5x5mm_TPSM63610" (at 100.00 80.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Function" "VCCO_DDR 1.35V @ 4A Buck Module" (at 100.00 80.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(uuid "36f56493-682c-4302-92d4-b24846e32028") (paper "A3")
+	(title_block (title "ORION-X R1.0: DDR3L Power Architecture (1.35V VCCO & VTT/VREF)") (date "2026-11-17") (rev "R1.0") (company "Google DeepMind / ORION Hardware Engineering"))
+	(lib_symbols
+	(symbol "ORION_POWER:TPSM63610RDHR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U" (at -12.7 20.32 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "TPSM63610RDHR" (at 12.7 20.32 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "ORION_POWER:TI_QFN-21_5x5mm_TPSM63610" (at 0 -22.86 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm63610.pdf" (at 0 -25.4 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "10A Synchronous Buck Power Module with Integrated Inductor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "ORION_POWER:TPSM63610RDHR_0_1"
+			(rectangle (start -12.7 17.78) (end 12.7 -20.32) (stroke (width 0.254) (type default)) (fill (type background)))
+		)
+		(symbol "ORION_POWER:TPSM63610RDHR_1_1"
+			(pin power_in line (at -15.24 12.7 0) (length 2.54) (name "VIN" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(pin input line (at -15.24 7.62 0) (length 2.54) (name "EN" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at -15.24 2.54 0) (length 2.54) (name "RT/SYNC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at -15.24 -2.54 0) (length 2.54) (name "SS/TR" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27)))))
+			(pin power_out line (at 15.24 12.7 180) (length 2.54) (name "VOUT" (effects (font (size 1.27 1.27)))) (number "9" (effects (font (size 1.27 1.27)))))
+			(pin input line (at 15.24 5.08 180) (length 2.54) (name "FB" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27)))))
+			(pin output line (at 15.24 0 180) (length 2.54) (name "PGOOD" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 15.24 -7.62 180) (length 2.54) (name "VCC" (effects (font (size 1.27 1.27)))) (number "15" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at 0 -22.86 90) (length 2.54) (name "PGND" (effects (font (size 1.27 1.27)))) (number "12" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at 2.54 -22.86 90) (length 2.54) (name "AGND" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27)))))
+			(pin power_in line (at -2.54 -22.86 90) (length 2.54) (name "PAD" (effects (font (size 1.27 1.27)))) (number "17" (effects (font (size 1.27 1.27)))))
+		)
 	)
-	(symbol (lib_id "ORION_POWER:TPS51200DRCR") (at 220.00 80.00 0) (unit 1)
-		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-		(uuid "1cb03d98-7106-4b04-a2e9-c99ac07c5139")
-		(property "Reference" "U9" (at 220.00 75.00 0) (effects (font (size 1.27 1.27))))
-		(property "Value" "TPS51200DRCR" (at 220.00 85.00 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "ORION_POWER:TI_VSON-10_3x3mm_TPS51200" (at 220.00 80.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Function" "VTT 0.675V Sink/Source LDO" (at 220.00 80.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(symbol "ORION_POWER:TPS51200DRCR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS51200DRCR"
+			(at 7.62 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps51200.pdf"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sink and Source DDR Termination Regulator, VSON-10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DDR LDO"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*VSON?10?1EP?3x3mm?P0.5mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ORION_POWER:TPS51200DRCR_0_1"
+			(rectangle
+				(start -8.89 -8.89)
+				(end 8.89 8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -12.7 5.08 0)
+				(length 3.81)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 3.81)
+				(name "VOSNS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 3.81)
+				(name "VLDOIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 5.08 180)
+				(length 3.81)
+				(name "VO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 2.54 180)
+				(length 3.81)
+				(name "PGOOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -2.54 180)
+				(length 3.81)
+				(name "REFIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -5.08 180)
+				(length 3.81)
+				(name "REFOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
-	(global_label "+12V_PCIE" (shape input) (at 40.00 40.00 0) (effects (font (size 1.27 1.27))) (uuid "c8763ccf-03dd-4ce1-b945-7bb9dc439604"))
-	(global_label "+3.3V_SYS" (shape input) (at 40.00 48.00 0) (effects (font (size 1.27 1.27))) (uuid "10d7f1e8-c6ad-4157-a1fd-6be7d3942066"))
-	(global_label "VCCO_DDR" (shape input) (at 40.00 56.00 0) (effects (font (size 1.27 1.27))) (uuid "8505cb2f-dd6b-4ff7-a3ae-3b198c326d86"))
-	(global_label "VTT_DDR" (shape input) (at 40.00 64.00 0) (effects (font (size 1.27 1.27))) (uuid "1d0b55ef-9cb4-489a-bc86-5843403f119c"))
-	(global_label "VREF_DDR" (shape input) (at 40.00 72.00 0) (effects (font (size 1.27 1.27))) (uuid "894ec306-51ae-4470-95aa-0223be9bae9f"))
-	(global_label "VCCO_DDR_PGOOD" (shape input) (at 40.00 80.00 0) (effects (font (size 1.27 1.27))) (uuid "977e6ace-bffd-417e-8826-fb1b0d19b23b"))
-	(global_label "GND" (shape input) (at 40.00 88.00 0) (effects (font (size 1.27 1.27))) (uuid "fec0547e-c847-46a6-a00a-4ada4c5ee433"))
-	(text "DDR3L Power Regulators
-U6 delivers 1.35V VDD/VDDQ for Micron DRAM and FPGA Banks 32, 33, 34
-U9 tracks VDDQ/2 (0.675V) with +/-3A peak sinking/sourcing capability" (at 60.00 160.00 0) (effects (font (size 1.5 1.5))) (uuid "bbf254ac-2707-4349-8272-243c660a83d6"))
+	)
+	(symbol (lib_id "ORION_POWER:TPSM63610RDHR") (at 119.38 119.38 0) (unit 1)
+		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+		(uuid "7d49e8bf-675e-4ac1-b6d4-47dc3cad80d2")
+		(property "Reference" "U6" (at 119.38 114.30 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "TPSM63610RDHR" (at 119.38 124.46 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "ORION_POWER:TI_QFN-21_5x5mm_TPSM63610" (at 119.38 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm63610.pdf" (at 119.38 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(instances
+			(project "ORION-X-R1"
+				(path "/59c28bf3-bb0c-42a8-a2b5-98e5044d6f4b"
+					(reference "U6") (unit 1)
+				)
+			)
+		)
+	)
+	(wire (pts (xy 104.14 106.68) (xy 99.06 106.68)) (stroke (width 0) (type default)) (uuid "4d55d8b7-01b0-4d6f-826b-d1f1a34e0fd0"))
+	(global_label "+12V_PCIE" (shape power_in) (at 99.06 106.68 180) (effects (font (size 1.27 1.27))) (uuid "bf691df7-82d4-4e00-b676-6c5b81a2cb82"))
+	(wire (pts (xy 104.14 111.76) (xy 99.06 111.76)) (stroke (width 0) (type default)) (uuid "c3a58606-2d78-4e33-a5ab-7f1abb973ea8"))
+	(global_label "VCCAUX_PGOOD" (shape input) (at 99.06 111.76 180) (effects (font (size 1.27 1.27))) (uuid "1b4f8e70-fea4-4606-ae1d-6585b60b60c6"))
+	(no_connect (at 104.14 116.84) (uuid "036b4258-0126-4f32-a4a1-8938fabd5999"))
+	(no_connect (at 104.14 121.92) (uuid "9abe2c5a-8855-4e3b-963e-fab918b87fe0"))
+	(wire (pts (xy 134.62 106.68) (xy 139.70 106.68)) (stroke (width 0) (type default)) (uuid "91b9fddb-290c-4c5c-9e08-b5b0111e1ecf"))
+	(global_label "VCCO_DDR" (shape power_in) (at 139.70 106.68 0) (effects (font (size 1.27 1.27))) (uuid "4d51d97c-ab62-43df-a576-44af1cf4ddd5"))
+	(wire (pts (xy 134.62 114.30) (xy 139.70 114.30)) (stroke (width 0) (type default)) (uuid "2ec8ec3a-ca39-4fe4-bc4a-9054f3d970ab"))
+	(global_label "U6_FB" (shape passive) (at 139.70 114.30 0) (effects (font (size 1.27 1.27))) (uuid "c0cd5021-8d43-4e8c-bc90-9515e09c2db9"))
+	(wire (pts (xy 134.62 119.38) (xy 139.70 119.38)) (stroke (width 0) (type default)) (uuid "d5f59f57-e878-4ea2-aafb-f47f04014986"))
+	(global_label "VCCO_DDR_PGOOD" (shape output) (at 139.70 119.38 0) (effects (font (size 1.27 1.27))) (uuid "633a9d49-2f86-47aa-8084-552b69806a79"))
+	(wire (pts (xy 134.62 127.00) (xy 139.70 127.00)) (stroke (width 0) (type default)) (uuid "6704b1c0-c3d4-43ce-88eb-0068ded25262"))
+	(global_label "GND" (shape power_in) (at 139.70 127.00 0) (effects (font (size 1.27 1.27))) (uuid "9a4ed68b-2d90-45fc-b32f-29ed1e69d5dd"))
+	(wire (pts (xy 119.38 142.24) (xy 119.38 147.32)) (stroke (width 0) (type default)) (uuid "8b1f577c-1de8-4387-934f-82298c447389"))
+	(global_label "GND" (shape power_in) (at 119.38 147.32 270) (effects (font (size 1.27 1.27))) (uuid "0625a00e-0418-4473-911e-622be0489e49"))
+	(wire (pts (xy 121.92 142.24) (xy 127.00 142.24)) (stroke (width 0) (type default)) (uuid "960f5318-9ec6-42be-9bee-bc0b6690242b"))
+	(global_label "GND" (shape power_in) (at 127.00 142.24 0) (effects (font (size 1.27 1.27))) (uuid "f339a7c5-bd01-40d3-8eda-9438bfff7150"))
+	(wire (pts (xy 116.84 142.24) (xy 111.76 142.24)) (stroke (width 0) (type default)) (uuid "72510c24-6cbb-4574-aa25-1357e3bf8eec"))
+	(global_label "GND" (shape power_in) (at 111.76 142.24 180) (effects (font (size 1.27 1.27))) (uuid "ae583b5d-fd35-4e04-ad9b-1c360b627ead"))
+	(symbol (lib_id "ORION_POWER:TPS51200DRCR") (at 279.40 119.38 0) (unit 1)
+		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+		(uuid "20b30b82-511e-4ee5-80b0-6f033779d47c")
+		(property "Reference" "U9" (at 279.40 114.30 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "TPS51200DRCR" (at 279.40 124.46 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "ORION_POWER:TI_VSON-10_3x3mm_TPS51200" (at 279.40 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps51200.pdf" (at 279.40 119.38 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(instances
+			(project "ORION-X-R1"
+				(path "/59c28bf3-bb0c-42a8-a2b5-98e5044d6f4b"
+					(reference "U9") (unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances (path "/59c28bf3-bb0c-42a8-a2b5-98e5044d6f4b" (page "6")))
 )

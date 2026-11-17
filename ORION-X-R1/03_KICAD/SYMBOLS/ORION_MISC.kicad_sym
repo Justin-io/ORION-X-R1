@@ -31,6 +31,26 @@
 			(pin input line (at 12.7 10.16 180) (length 2.54) (name "SCLK" (effects (font (size 1.27 1.27)))) (number "16" (effects (font (size 1.27 1.27)))))
 		)
 	)
+	(symbol "XGL6060-151MEB"
+		(exclude_from_sim no) (in_bom yes) (on_board yes)
+		(property "Reference" "L" (at -5.08 5.08 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "0.15uH" (at 5.08 5.08 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "ORION_MISC:Inductor_SMD_6.5x6.5mm_XGL6060" (at 0 -7.62 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/e89c623d-c1ee-485a-8b83-ff0ee8bbf4fc/xgl6060.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "Coilcraft High Current Shielded Power Inductor 0.15uH, 43.0A Isat, 1.25mOhm" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "MPN" "XGL6060-151MEB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "Coilcraft" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "XGL6060-151MEB_0_1"
+			(arc (start -5.08 0) (mid -3.81 1.27) (end -2.54 0) (stroke (width 0.254) (type default)) (fill (type none)))
+			(arc (start -2.54 0) (mid -1.27 1.27) (end 0 0) (stroke (width 0.254) (type default)) (fill (type none)))
+			(arc (start 0 0) (mid 1.27 1.27) (end 2.54 0) (stroke (width 0.254) (type default)) (fill (type none)))
+			(arc (start 2.54 0) (mid 3.81 1.27) (end 5.08 0) (stroke (width 0.254) (type default)) (fill (type none)))
+		)
+		(symbol "XGL6060-151MEB_1_1"
+			(pin passive line (at -7.62 0 0) (length 2.54) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(pin passive line (at 7.62 0 180) (length 2.54) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))
+		)
+	)
 	(symbol "XGL6060-331MEB"
 		(exclude_from_sim no) (in_bom yes) (on_board yes)
 		(property "Reference" "L" (at -5.08 5.08 0) (effects (font (size 1.27 1.27))))

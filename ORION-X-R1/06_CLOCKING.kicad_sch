@@ -1,22 +1,257 @@
 (kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-	(uuid "04122c5d-8869-4197-ace5-2add0b8acf18") (paper "A3")
-	(title_block (title "ORION-X R1.0: 200 MHz Low-Jitter System Clock Architecture") (date "2026-11-17") (rev "R1.0") (company "Google DeepMind / ORION"))
-	(symbol (lib_id "ORION_CLOCK:SiT9121AI-2B3-33E200") (at 140.00 90.00 0) (unit 1)
-		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-		(uuid "8d186c16-cc8a-4bad-80c0-91e42097e77a")
-		(property "Reference" "Y1" (at 140.00 85.00 0) (effects (font (size 1.27 1.27))))
-		(property "Value" "200.000MHz LVDS" (at 140.00 95.00 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "ORION_CLOCK:Oscillator_SMD_SiTime_SiT9121-6Pin_3.2x2.5mm" (at 140.00 90.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Jitter" "< 500fs RMS Phase Jitter" (at 140.00 90.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(uuid "64e132fa-9bd1-4fe2-b65b-aa7b60025a04") (paper "A3")
+	(title_block (title "ORION-X R1.0: 200 MHz Low-Jitter System Clock Architecture") (date "2026-11-17") (rev "R1.0") (company "Google DeepMind / ORION Hardware Engineering"))
+	(lib_symbols
+	(symbol "ORION_CLOCK:SiT9121AI-2B3-33E200"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at -6.35 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SiT9121AI-2B3-33E200"
+			(at 8.89 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_SiTime_PQFD-6L_3.2x2.5mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sitime.com/datasheet/SiT9121"
+			(at -10.16 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SiT9121AI-2B3-33E200.000000"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SiTime"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SiTime Standard Frequency Ultra-low Jitter Differential Oscillator, 25-325MHz, PQFD-6, 3.2x2.5mm (with enable pin)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LVDS LVPECL HCSL differential MEMS oscillatior"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*PQFD*3.2x2.5mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ORION_CLOCK:SiT9121AI-2B3-33E200_0_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.762) (xy 1.905 -0.762) (xy 1.905 0.635) (xy 3.175 0.635) (xy 3.175 -0.762) (xy 4.445 -0.762)
+					(xy 4.445 0.635) (xy 5.715 0.635) (xy 5.715 -0.762) (xy 6.223 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ORION_CLOCK:SiT9121AI-2B3-33E200_1_1"
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "OE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "OUT+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "OUT-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
-	(global_label "+3.3V_SYS" (shape input) (at 240.00 50.00 0) (effects (font (size 1.27 1.27))) (uuid "8a29df94-435b-4e27-a3cc-502455e33b40"))
-	(global_label "GND" (shape input) (at 240.00 58.00 0) (effects (font (size 1.27 1.27))) (uuid "591a1e4f-9c6c-4021-90d3-87f1d58552a0"))
-	(global_label "SYS_CLK_P" (shape input) (at 240.00 66.00 0) (effects (font (size 1.27 1.27))) (uuid "5d1864aa-834f-4593-b64c-6fb16b1b4ffa"))
-	(global_label "SYS_CLK_N" (shape input) (at 240.00 74.00 0) (effects (font (size 1.27 1.27))) (uuid "861cd595-08dd-444d-a1dc-5353c5f870a1"))
-	(global_label "PCIE_CLK_P" (shape input) (at 240.00 82.00 0) (effects (font (size 1.27 1.27))) (uuid "2bc2ffd7-c38c-4441-aa1d-462550286c92"))
-	(global_label "PCIE_CLK_N" (shape input) (at 240.00 90.00 0) (effects (font (size 1.27 1.27))) (uuid "7b331808-74fa-4722-95a2-b37ceab702f5"))
-	(text "Low-Jitter Clock Source for DDR3 MIG & Accelerator Fabric
-SiTime SiT9121 200.000 MHz LVDS differential oscillator routed to Bank 33 MRCC pins
-PCIe 100MHz HCSL Clock routed to Bank 115 MGTREFCLK0" (at 60.00 160.00 0) (effects (font (size 1.5 1.5))) (uuid "b1e47e0e-fabe-49b3-be3c-e8977e6dfc87"))
+	)
+	(symbol (lib_id "ORION_CLOCK:SiT9121AI-2B3-33E200") (at 180.34 129.54 0) (unit 1)
+		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+		(uuid "9fd3abcd-6619-4069-b2f1-ab55961d3def")
+		(property "Reference" "Y1" (at 180.34 124.46 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "200.000MHz LVDS" (at 180.34 134.62 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "ORION_CLOCK:Oscillator_SMD_SiTime_SiT9121-6Pin_3.2x2.5mm" (at 180.34 129.54 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "https://www.sitime.com/datasheet/SiT9121" (at 180.34 129.54 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "MPN" "SiT9121AI-2B3-33E200.000000" (at 180.34 129.54 0) (effects (font (size 1.27 1.27))) (hide yes))
+		(property "Manufacturer" "SiTime" (at 180.34 129.54 0) (effects (font (size 1.27 1.27))) (hide yes))
+		(instances
+			(project "ORION-X-R1"
+				(path "/ba655240-cc5f-49ae-9237-559eeb17608e"
+					(reference "Y1") (unit 1)
+				)
+			)
+		)
+	)
+	(wire (pts (xy 170.18 129.54) (xy 165.10 129.54)) (stroke (width 0) (type default)) (uuid "23049f4e-d167-4a7d-ab78-55ae501fa24e"))
+	(global_label "+3.3V_SYS" (shape power_in) (at 165.10 129.54 180) (effects (font (size 1.27 1.27))) (uuid "1451d5b7-61ad-47f8-a6e9-4e76df9591cf"))
+	(no_connect (at 172.72 127.00) (uuid "c2f0772c-9fbc-4335-a940-a3e9e1e59410"))
+	(wire (pts (xy 180.34 121.92) (xy 180.34 116.84)) (stroke (width 0) (type default)) (uuid "3ce4bbba-1c42-48ad-b149-92b5d2fd7b8d"))
+	(global_label "+3.3V_SYS" (shape power_in) (at 180.34 116.84 90) (effects (font (size 1.27 1.27))) (uuid "76ba1208-f758-41ba-bce5-17dce37bb676"))
+	(wire (pts (xy 180.34 137.16) (xy 180.34 142.24)) (stroke (width 0) (type default)) (uuid "a50c16f5-9117-4cc8-a063-5ecd15c1b081"))
+	(global_label "GND" (shape power_in) (at 180.34 142.24 270) (effects (font (size 1.27 1.27))) (uuid "9a930258-aafb-4970-8b3f-bc237df1b97f"))
+	(wire (pts (xy 190.50 127.00) (xy 195.58 127.00)) (stroke (width 0) (type default)) (uuid "2d67950a-8f19-46c0-ae19-bacbf5091317"))
+	(global_label "SYS_CLK_P" (shape output) (at 195.58 127.00 0) (effects (font (size 1.27 1.27))) (uuid "86605d65-1db9-4ee1-9612-8dc4f1ab8861"))
+	(wire (pts (xy 190.50 132.08) (xy 195.58 132.08)) (stroke (width 0) (type default)) (uuid "f41c7e1f-cf60-4077-b68d-3d69d03a45ba"))
+	(global_label "SYS_CLK_N" (shape output) (at 195.58 132.08 0) (effects (font (size 1.27 1.27))) (uuid "3dcd514f-98de-4f91-a560-0b173cecb06f"))
 	(sheet_instances (path "/ba655240-cc5f-49ae-9237-559eeb17608e" (page "7")))
 )

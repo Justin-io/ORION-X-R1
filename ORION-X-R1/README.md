@@ -18,7 +18,7 @@
 Designed entirely within the **KiCad 9.0.2** EDA ecosystem, this repository contains the complete production-grade schematics, custom audited symbol/footprint libraries, controlled-impedance 12-layer PCB layout, signal/power integrity documentation, automated build scripts, and digital manufacturing packages (Gerbers, Drill, BOM, Pick-and-Place, and 3D Models).
 
 <p align="center">
-  <img src="ORION-X-R1/10_VISUALIZATION/RENDERS/ORION-X-R1_3D_PERSPECTIVE_HIGHRES.png" alt="ORION-X R1 3D Perspective Render" width="850">
+  <img src="10_VISUALIZATION/RENDERS/ORION-X-R1_PERSPECTIVE.png" alt="ORION-X R1 3D Perspective Render" width="850">
 </p>
 
 ---
@@ -44,8 +44,9 @@ Designed entirely within the **KiCad 9.0.2** EDA ecosystem, this repository cont
 | Memory Termination  | TI TPS51200 Sinking/Sourcing DDR Termination LDO (VTT = 0.675V, VREF)       |
 | Transceiver Rails   | 2× TI TPS7A8500 Ultra-Low-Noise (4.4 µVrms) LDOs (MGTAVCC 1.0V, MGTAVTT 1.2)|
 | Layer Count         | 12-Layer Symmetrical Controlled-Impedance Stackup (Panasonic Megtron 6)     |
-| Power Budget        | 45W Nominal, 55W Peak (Sourced exclusively from PCIe +12V Slot Rail)       |
-| Verification Status | DRC: 0 Errors (0 Shorts, 0 Clearance Violations) | ERC: 0 Errors             |
+| Power Budget        | 19.8W Typical / 23.8W Peak Dissipation (26.8W Gross Input from 75W PCIe)  |
+| Verification Status | DRC: 0 Violations (0 Unconnected Pads) | ERC: 0 Errors, 0 Warnings           |
+| Validation Scope    | CAD-Verified & Fabrication-Ready (Physical Hardware Testing Not Performed) |
 +---------------------+----------------------------------------------------------------------------+
 ```
 

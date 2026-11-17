@@ -1,0 +1,617 @@
+** Drc report for ORION-X-R1.kicad_pcb **
+** Created on 2026-11-17T22:51:40+0530 **
+
+** Found 69 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(10.0000 mm, 10.0000 mm): Track [+12V_PCIE] on F.Cu, length 120.0000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(68.0000 mm, 63.0000 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(39.8837 mm, 58.5712 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(40.3125 mm, 43.5702 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(74.0000 mm, 51.0000 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(68.6778 mm, 18.9746 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(70.0000 mm, 49.0000 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(74.5233 mm, 51.7500 mm): Track [+3.3V_SYS] on In7.Cu, length 1.7733 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.8000 mm, 47.2000 mm): Via [DDR_DQS2_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(67.0000 mm, 66.0000 mm): Via [DDR_DQS2_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(68.0000 mm, 66.0000 mm): Via [DDR_DQS2_P] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.8000 mm, 46.4000 mm): Via [DDR_DQS2_P] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(63.0000 mm, 70.0000 mm): Via [DDR_DQS3_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.0000 mm, 43.2000 mm): Via [DDR_DQS3_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(68.0000 mm, 59.0000 mm): Via [MGTRREF] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(68.0000 mm, 60.0000 mm): Via [MGTVCCAUX] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(76.0000 mm, 61.0000 mm): Via [VCCINT] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(77.0000 mm, 62.0000 mm): Via [VCCINT] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(77.0000 mm, 64.0000 mm): Via [VCCINT] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.0000 mm, 44.8000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.0000 mm, 48.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(116.0000 mm, 43.2000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.0000 mm, 43.2000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(120.8000 mm, 49.6000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.0000 mm, 49.6000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(63.0000 mm, 68.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(115.2000 mm, 46.4000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(120.0000 mm, 47.2000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(116.0000 mm, 49.6000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.8000 mm, 49.6000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(116.0000 mm, 48.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(78.0000 mm, 73.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(116.0000 mm, 44.8000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(65.0000 mm, 65.0000 mm): Track [VCCO_DDR] on In7.Cu, length 1.0000 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(69.0000 mm, 69.0000 mm): Via [DDR_A1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(72.0000 mm, 72.0000 mm): Via [DDR_A10] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(73.0000 mm, 72.0000 mm): Via [DDR_A12] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(69.0000 mm, 72.0000 mm): Via [DDR_A4] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(72.0000 mm, 71.0000 mm): Via [DDR_A9] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(69.0000 mm, 68.0000 mm): Via [DDR_BA0] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(70.0000 mm, 67.0000 mm): Via [DDR_BA2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(72.0000 mm, 67.0000 mm): Via [DDR_CKE] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(75.0000 mm, 68.0000 mm): Via [DDR_CS#] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(66.0000 mm, 65.0000 mm): Via [DDR_DM2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.0000 mm, 45.6000 mm): Via [DDR_DM2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.8000 mm, 44.8000 mm): Via [DDR_DM3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(65.0000 mm, 72.0000 mm): Via [DDR_DM3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.0000 mm, 46.4000 mm): Via [DDR_DQ17] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(63.0000 mm, 65.0000 mm): Via [DDR_DQ17] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.0000 mm, 48.0000 mm): Via [DDR_DQ23] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(64.0000 mm, 67.0000 mm): Via [DDR_DQ23] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(64.0000 mm, 68.0000 mm): Via [DDR_DQ24] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.0000 mm, 44.8000 mm): Via [DDR_DQ24] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(64.0000 mm, 70.0000 mm): Via [DDR_DQ26] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.8000 mm, 44.0000 mm): Via [DDR_DQ26] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(64.0000 mm, 69.0000 mm): Via [DDR_DQ27] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.0000 mm, 44.0000 mm): Via [DDR_DQ27] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(63.0000 mm, 72.0000 mm): Via [DDR_DQ29] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.0000 mm, 42.4000 mm): Via [DDR_DQ29] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(64.0000 mm, 73.0000 mm): Via [DDR_DQ30] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.8000 mm, 43.2000 mm): Via [DDR_DQ30] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(65.0000 mm, 73.0000 mm): Via [DDR_DQ31] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(140.8000 mm, 42.4000 mm): Via [DDR_DQ31] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(120.8000 mm, 50.4000 mm): Via [DDR_ZQ_U2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.8000 mm, 50.4000 mm): Via [DDR_ZQ_U3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(69.0000 mm, 56.0000 mm): Via [FPGA_DONE] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(69.0000 mm, 54.0000 mm): Via [FPGA_INIT_B] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(68.0000 mm, 61.0000 mm): Via [FPGA_PROG_B] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(62.7500 mm, 22.9375 mm): Track [U5_SW] on F.Cu, length 1.5625 mm
+
+** Found 100 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.0000 mm, 51.0000 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+    @(74.5233 mm, 51.7500 mm): Track [+3.3V_SYS] on In7.Cu, length 1.7733 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.0000 mm, 57.0000 mm): Track [+3.3V_SYS] on In1.Cu, length 1.4142 mm
+    @(82.0000 mm, 57.0000 mm): Track [+3.3V_SYS] on In3.Cu, length 1.4142 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 51.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+    @(69.5000 mm, 48.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 51.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+    @(71.5000 mm, 54.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.0000 mm, 48.0000 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+    @(73.5000 mm, 50.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 51.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+    @(73.5000 mm, 50.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.0000 mm, 58.0000 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+    @(67.5000 mm, 62.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(40.3125 mm, 44.0000 mm): Track [+3.3V_SYS] on F.Cu, length 0.5000 mm
+    @(39.8837 mm, 58.5712 mm): Track [+3.3V_SYS] on F.Cu, length 0.6064 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(40.3125 mm, 59.0000 mm): Track [+3.3V_SYS] on F.Cu, length 0.5000 mm
+    @(34.6888 mm, 76.6323 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.5000 mm, 47.5000 mm): Track [+3.3V_SYS] on F.Cu, length 0.7071 mm
+    @(68.6778 mm, 18.9746 mm): Via [+3.3V_SYS] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.2000 mm, 76.8750 mm): Track [+3.3V_SYS] on F.Cu, length 1.6000 mm
+    @(131.4500 mm, 74.0000 mm): Pad 10 [+3.3V_SYS] of U9 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.5000 mm, 65.5000 mm): Track [DDR_DQS2_N] on F.Cu, length 0.7071 mm
+    @(140.4000 mm, 46.8000 mm): Track [DDR_DQS2_N] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(67.5000 mm, 65.5000 mm): Track [DDR_DQS2_P] on F.Cu, length 0.7071 mm
+    @(140.4000 mm, 46.0000 mm): Track [DDR_DQS2_P] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.5000 mm, 69.5000 mm): Track [DDR_DQS3_N] on F.Cu, length 0.7071 mm
+    @(143.6000 mm, 42.8000 mm): Track [DDR_DQS3_N] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.8000 mm, 45.6000 mm): Via [GND] on F.Cu - B.Cu
+    @(121.2000 mm, 46.0000 mm): Track [GND] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8000 mm, 45.6000 mm): Via [GND] on F.Cu - B.Cu
+    @(145.2000 mm, 46.0000 mm): Track [GND] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.5000 mm, 55.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(66.0000 mm, 55.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.0000 mm, 59.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(75.5000 mm, 59.5000 mm): Pad N14 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.5000 mm, 58.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(72.0000 mm, 58.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 60.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(71.5000 mm, 61.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.5000 mm, 57.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(75.0000 mm, 57.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.0000 mm, 63.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(73.5000 mm, 63.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.0000 mm, 61.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(75.5000 mm, 61.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.5000 mm, 57.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(70.5000 mm, 56.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.0000 mm, 63.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(75.5000 mm, 63.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.5000 mm, 62.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(76.0000 mm, 62.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 62.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(70.0000 mm, 62.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.5000 mm, 59.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(71.0000 mm, 59.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(66.0000 mm, 59.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(66.5000 mm, 59.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.4000 mm, 48.4000 mm): Track [GND] on F.Cu, length 0.5657 mm
+    @(120.8000 mm, 47.2000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.2000 mm, 47.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(115.6000 mm, 48.4000 mm): Track [GND] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.2000 mm, 47.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(139.6000 mm, 48.4000 mm): Track [GND] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8000 mm, 47.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(144.4000 mm, 48.4000 mm): Track [GND] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(67.8399 mm, 23.0928 mm): Via [GND] on F.Cu - B.Cu
+    @(67.9375 mm, 21.7500 mm): Pad 22 [GND] of U5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.0000 mm, 57.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(68.5000 mm, 58.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.0000 mm, 64.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(80.5000 mm, 66.5000 mm): Pad Y19 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.5000 mm, 71.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(75.0000 mm, 69.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.5000 mm, 68.5000 mm): Track [GND] on F.Cu, length 0.7071 mm
+    @(74.0000 mm, 66.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(41.5000 mm, 46.6875 mm): Track [MGTAVCC] on F.Cu, length 1.5207 mm
+    @(64.9460 mm, 50.3423 mm): Track [MGTAVCC] on In7.Cu, length 0.0987 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(64.0000 mm, 58.0000 mm): Via [MGTAVTT] on F.Cu - B.Cu
+    @(64.5000 mm, 58.5000 mm): Pad M3 [MGTAVTT] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.0000 mm, 55.0000 mm): Via [MGTAVTT] on F.Cu - B.Cu
+    @(63.5000 mm, 57.5000 mm): Track [MGTAVTT] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 61.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+    @(71.5000 mm, 62.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 61.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+    @(70.0000 mm, 61.0000 mm): Via [VCCAUX] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.5000 mm, 63.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+    @(71.5000 mm, 62.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 61.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+    @(70.0000 mm, 63.0000 mm): Via [VCCAUX] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 61.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+    @(71.5000 mm, 60.5000 mm): Pad P10 [VCCAUX] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.5000 mm, 57.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+    @(71.5000 mm, 58.5000 mm): Pad M10 [VCCAUX] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.5000 mm, 60.5000 mm): Pad P10 [VCCAUX] of U1 on F.Cu
+    @(71.5000 mm, 58.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(97.2500 mm, 24.1500 mm): Via [VCCAUX] on F.Cu - B.Cu
+    @(72.5000 mm, 57.5000 mm): Track [VCCAUX] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.0000 mm, 58.0000 mm): Via [VCCINT] on F.Cu - B.Cu
+    @(75.5000 mm, 58.5000 mm): Pad M14 [VCCINT] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.5000 mm, 58.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+    @(76.5000 mm, 59.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.5000 mm, 57.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+    @(73.5000 mm, 56.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.0000 mm, 63.0000 mm): Via [VCCINT] on F.Cu - B.Cu
+    @(76.5000 mm, 63.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(70.5000 mm, 57.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+    @(70.0000 mm, 57.0000 mm): Via [VCCINT] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.5000 mm, 60.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+    @(76.5000 mm, 61.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.5000 mm, 58.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+    @(70.5000 mm, 59.5000 mm): Pad N9 [VCCINT] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(76.5000 mm, 61.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+    @(75.5000 mm, 62.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.0000 mm, 58.0000 mm): Via [VCCINT] on F.Cu - B.Cu
+    @(69.5000 mm, 58.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.5000 mm, 60.5000 mm): Pad P14 [VCCINT] of U1 on F.Cu
+    @(76.5000 mm, 59.5000 mm): Track [VCCINT] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.2000 mm, 42.4000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+    @(115.6000 mm, 42.8000 mm): Pad B2 [VCCO_DDR] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.6000 mm, 44.4000 mm): Pad D2 [VCCO_DDR] of U2 on F.Cu
+    @(114.8000 mm, 43.6000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.2000 mm, 44.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+    @(139.6000 mm, 44.4000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.6000 mm, 42.8000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+    @(138.8000 mm, 42.0000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.6000 mm, 42.8000 mm): Pad B2 [VCCO_DDR] of U2 on F.Cu
+    @(114.8000 mm, 43.6000 mm): Pad C1 [VCCO_DDR] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.2000 mm, 47.6000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+    @(119.6000 mm, 46.8000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.2000 mm, 46.4000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+    @(115.6000 mm, 47.6000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.0000 mm, 48.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+    @(115.6000 mm, 49.2000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.6000 mm, 47.6000 mm): Pad H2 [VCCO_DDR] of U3 on F.Cu
+    @(139.2000 mm, 46.4000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.6000 mm, 49.2000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+    @(139.6000 mm, 47.6000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.5000 mm, 66.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+    @(65.0000 mm, 65.0000 mm): Track [VCCO_DDR] on In7.Cu, length 1.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.4000 mm, 49.2000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+    @(121.6000 mm, 48.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.6000 mm, 44.4000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+    @(114.8000 mm, 46.0000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.6000 mm, 48.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+    @(144.4000 mm, 49.2000 mm): Track [VCCO_DDR] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.5000 mm, 71.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+    @(80.0000 mm, 69.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(77.5000 mm, 72.5000 mm): Pad AF16 [VCCO_DDR] of U1 on F.Cu
+    @(76.5000 mm, 69.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.5000 mm, 65.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+    @(79.5000 mm, 68.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(72.0000 mm, 65.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+    @(72.5000 mm, 67.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.5000 mm, 70.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+    @(73.0000 mm, 68.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.5000 mm, 66.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+    @(76.5000 mm, 69.5000 mm): Pad AC15 [VCCO_DDR] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.0000 mm, 68.0000 mm): Via [VCCO_DDR] on F.Cu - B.Cu
+    @(63.5000 mm, 70.5000 mm): Track [VCCO_DDR] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.0000 mm, 69.0000 mm): Via [DDR_A1] on F.Cu - B.Cu
+    @(119.6000 mm, 52.4000 mm): Track [DDR_A1] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.5000 mm, 71.5000 mm): Track [DDR_A10] on F.Cu, length 0.7071 mm
+    @(119.6000 mm, 50.0000 mm): Track [DDR_A10] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(73.0000 mm, 72.0000 mm): Via [DDR_A12] on F.Cu - B.Cu
+    @(119.6000 mm, 51.6000 mm): Pad N7 [DDR_A12] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.0000 mm, 72.0000 mm): Via [DDR_A4] on F.Cu - B.Cu
+    @(120.4000 mm, 52.4000 mm): Track [DDR_A4] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.4000 mm, 53.2000 mm): Track [DDR_A9] on F.Cu, length 0.5657 mm
+    @(71.5000 mm, 70.5000 mm): Track [DDR_A9] on F.Cu, length 0.7071 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(68.5000 mm, 67.5000 mm): Track [DDR_BA0] on F.Cu, length 0.7071 mm
+    @(115.6000 mm, 50.8000 mm): Pad M2 [DDR_BA0] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(69.5000 mm, 66.5000 mm): Track [DDR_BA2] on F.Cu, length 0.7071 mm
+    @(116.4000 mm, 50.8000 mm): Pad M3 [DDR_BA2] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.5000 mm, 66.5000 mm): Track [DDR_CKE] on F.Cu, length 0.7071 mm
+    @(121.2000 mm, 49.2000 mm): Track [DDR_CKE] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(74.5000 mm, 67.5000 mm): Track [DDR_CS#] on F.Cu, length 0.7071 mm
+    @(115.6000 mm, 50.0000 mm): Track [DDR_CS#] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(65.5000 mm, 64.5000 mm): Track [DDR_DM2] on F.Cu, length 0.7071 mm
+    @(143.6000 mm, 45.2000 mm): Track [DDR_DM2] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(64.5000 mm, 71.5000 mm): Track [DDR_DM3] on F.Cu, length 0.7071 mm
+    @(140.4000 mm, 44.4000 mm): Track [DDR_DM3] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.5000 mm, 64.5000 mm): Track [DDR_DQ17] on F.Cu, length 0.7071 mm
+    @(143.6000 mm, 46.0000 mm): Track [DDR_DQ17] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.5000 mm, 66.5000 mm): Track [DDR_DQ23] on F.Cu, length 0.7071 mm
+    @(143.6000 mm, 47.6000 mm): Track [DDR_DQ23] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.5000 mm, 67.5000 mm): Track [DDR_DQ24] on F.Cu, length 0.7071 mm
+    @(143.6000 mm, 44.4000 mm): Track [DDR_DQ24] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.5000 mm, 69.5000 mm): Track [DDR_DQ26] on F.Cu, length 0.7071 mm
+    @(144.4000 mm, 43.6000 mm): Pad C8 [DDR_DQ26] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.5000 mm, 68.5000 mm): Track [DDR_DQ27] on F.Cu, length 0.7071 mm
+    @(139.6000 mm, 43.6000 mm): Track [DDR_DQ27] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.5000 mm, 71.5000 mm): Track [DDR_DQ29] on F.Cu, length 0.7071 mm
+    @(139.6000 mm, 42.0000 mm): Pad A2 [DDR_DQ29] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(63.5000 mm, 72.5000 mm): Track [DDR_DQ30] on F.Cu, length 0.7071 mm
+    @(144.4000 mm, 42.8000 mm): Track [DDR_DQ30] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(64.5000 mm, 72.5000 mm): Track [DDR_DQ31] on F.Cu, length 0.7071 mm
+    @(140.4000 mm, 42.0000 mm): Track [DDR_DQ31] on F.Cu, length 0.5657 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.0625 mm, 22.2500 mm): Track [U5_SW] on F.Cu, length 2.2500 mm
+    @(62.7500 mm, 22.9375 mm): Track [U5_SW] on F.Cu, length 1.5625 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **

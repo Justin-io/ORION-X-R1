@@ -26,8 +26,8 @@ This document delineates the technical boundaries, architectural compromises, kn
 - **Thermal Boundary**: At loads $> 25\text{W}$, forced convection airflow ($\ge 200\text{ LFM}$) and a low-profile active heatsink on the FFG676 package are mandatory to maintain FPGA junction temperature $T_J < 85^\circ\text{C}$.
 
 ### 3.2 Total Board Power Envelope
-- Total power consumption from the host PCIe slot is budgeted at **45W nominal, 55W peak**.
-- Power delivery is drawn exclusively from the PCIe $+12\text{V}$ rail ($5.5\text{A}$ rating = $66\text{W}$ max slot limit). The host $+3.3\text{V}$ PCIe rail is utilized solely for auxiliary standby sense circuitry to prevent back-powering host motherboards.
+- Total power dissipation across all FPGA and memory rails is calculated at **19.82W typical, 23.85W peak** (gross board input: **26.75W** assuming 89.2% aggregate DC-DC conversion efficiency).
+- Power delivery is drawn primarily from the PCIe $+12\text{V}$ rail ($5.5\text{A}$ slot rating = $66\text{W}$) with standby power from $+3.3\text{V}$ ($3.0\text{A}$ slot rating = $9.9\text{W}$), operating well within the PCI-SIG CEM 2.0 75W electromechanical envelope.
 
 ---
 

@@ -1,32 +1,2010 @@
 (kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-	(uuid "436f6d8b-1267-42a9-8f23-db22f160991e") (paper "A3")
-	(title_block (title "ORION-X R1.0: 32-Bit DDR3L SDRAM Subsystem") (date "2026-11-17") (rev "R1.0") (company "Google DeepMind / ORION"))
-	(symbol (lib_id "ORION_MEMORY:MT41K256M16TW-107-AAT_P") (at 100.00 100.00 0) (unit 1)
-		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-		(uuid "b8b0b2e7-8dde-42b0-bc56-3a8cc1f56e12")
-		(property "Reference" "U2" (at 100.00 95.00 0) (effects (font (size 1.27 1.27))))
-		(property "Value" "MT41K256M16TW-107-AAT:P" (at 100.00 105.00 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "ORION_MEMORY:Micron_FBGA-96_9x14mm_P0.8mm" (at 100.00 100.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Device" "DDR3L x16 Lower Byte 0/1" (at 100.00 100.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
+	(uuid "9ddf3681-ea61-4779-95a5-30649f610516") (paper "A2")
+	(title_block (title "ORION-X R1.0: 1GB DDR3L-1600 Memory Subsystem") (date "2026-11-17") (rev "R1.0") (company "Google DeepMind / ORION Hardware Engineering"))
+	(lib_symbols
+	(symbol "ORION_MEMORY:MT41K256M16TW-107-AAT_P"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -13.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MT41K256M16TW-107-AAT_P"
+			(at 13.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ORION_MEMORY:Micron_FBGA-96_9x14mm_P0.8mm"
+			(at -1.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/dram/ddr3/4gb_ddr3l.pdf"
+			(at -1.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4Gb (256Mx16 bit) Double Data Rate 3 Synchronous DRAM"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "DDR3 DRAM MEMORY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "BGA*9.0x13.0mm*P0.8mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ORION_MEMORY:MT41K256M16TW-107-AAT_P_0_1"
+			(rectangle
+				(start -15.24 -40.64)
+				(end 15.24 40.64)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -17.78 38.1 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 35.56 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 33.02 0)
+				(length 2.54)
+				(name "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 30.48 0)
+				(length 2.54)
+				(name "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 27.94 0)
+				(length 2.54)
+				(name "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 25.4 0)
+				(length 2.54)
+				(name "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 22.86 0)
+				(length 2.54)
+				(name "A6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 20.32 0)
+				(length 2.54)
+				(name "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 17.78 0)
+				(length 2.54)
+				(name "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 15.24 0)
+				(length 2.54)
+				(name "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 12.7 0)
+				(length 2.54)
+				(name "A10/AP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 10.16 0)
+				(length 2.54)
+				(name "A11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 7.62 0)
+				(length 2.54)
+				(name "A12/~{BC}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 5.08 0)
+				(length 2.54)
+				(name "A13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 2.54 0)
+				(length 2.54)
+				(name "A14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -22.86 0)
+				(length 2.54)
+				(name "~{RESET}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -25.4 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 43.18 270)
+				(length 2.54)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 43.18 270)
+				(length 2.54)
+				(hide yes)
+				(name "VDDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -43.18 90)
+				(length 2.54)
+				(hide yes)
+				(name "VSSQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 43.18 270)
+				(length 2.54)
+				(name "VREFDQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 38.1 180)
+				(length 2.54)
+				(name "DQ0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 35.56 180)
+				(length 2.54)
+				(name "DQ1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 33.02 180)
+				(length 2.54)
+				(name "DQ2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 30.48 180)
+				(length 2.54)
+				(name "DQ3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 27.94 180)
+				(length 2.54)
+				(name "DQ4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 25.4 180)
+				(length 2.54)
+				(name "DQ5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 22.86 180)
+				(length 2.54)
+				(name "DQ6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 20.32 180)
+				(length 2.54)
+				(name "DQ7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ORION_MEMORY:MT41K256M16TW-107-AAT_P_1_1"
+			(text "DDR3"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 2.1336 2.1336)
+					)
+					(justify left bottom)
+				)
+			)
+			(pin input line
+				(at -17.78 -2.54 0)
+				(length 2.54)
+				(name "BA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -5.08 0)
+				(length 2.54)
+				(name "BA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -7.62 0)
+				(length 2.54)
+				(name "BA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -12.7 0)
+				(length 2.54)
+				(name "CK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -15.24 0)
+				(length 2.54)
+				(name "~{CK}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -17.78 0)
+				(length 2.54)
+				(name "CKE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -27.94 0)
+				(length 2.54)
+				(name "~{RAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -30.48 0)
+				(length 2.54)
+				(name "~{CAS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -33.02 0)
+				(length 2.54)
+				(name "~{WE}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -35.56 0)
+				(length 2.54)
+				(name "ODT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 43.18 270)
+				(length 2.54)
+				(name "VREFCA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.24 -27.94 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.24 -30.48 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.24 -33.02 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.24 -35.56 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 15.24 -38.1 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 17.78 180)
+				(length 2.54)
+				(name "DQ8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 15.24 180)
+				(length 2.54)
+				(name "DQ9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 12.7 180)
+				(length 2.54)
+				(name "DQ10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 10.16 180)
+				(length 2.54)
+				(name "DQ11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 7.62 180)
+				(length 2.54)
+				(name "DQ12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 5.08 180)
+				(length 2.54)
+				(name "DQ13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 2.54 180)
+				(length 2.54)
+				(name "DQ14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "DQ15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -5.08 180)
+				(length 2.54)
+				(name "LDM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "UDM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -12.7 180)
+				(length 2.54)
+				(name "LDQS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -15.24 180)
+				(length 2.54)
+				(name "~{LDQS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -17.78 180)
+				(length 2.54)
+				(name "UDQS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -20.32 180)
+				(length 2.54)
+				(name "~{UDQS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -25.4 180)
+				(length 2.54)
+				(name "ZQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
-	(symbol (lib_id "ORION_MEMORY:MT41K256M16TW-107-AAT_P") (at 240.00 100.00 0) (unit 1)
-		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-		(uuid "08a86437-bf88-4506-a5d8-a4fdaf038737")
-		(property "Reference" "U3" (at 240.00 95.00 0) (effects (font (size 1.27 1.27))))
-		(property "Value" "MT41K256M16TW-107-AAT:P" (at 240.00 105.00 0) (effects (font (size 1.27 1.27))))
-		(property "Footprint" "ORION_MEMORY:Micron_FBGA-96_9x14mm_P0.8mm" (at 240.00 100.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
-		(property "Device" "DDR3L x16 Upper Byte 2/3" (at 240.00 100.00 0) (effects (font (size 1.27 1.27)) (hide yes)))
 	)
-	(global_label "VCCO_DDR" (shape input) (at 40.00 50.00 0) (effects (font (size 1.27 1.27))) (uuid "1ae863e8-4277-4870-abad-5ff123ae9b4d"))
-	(global_label "VTT_DDR" (shape input) (at 40.00 58.00 0) (effects (font (size 1.27 1.27))) (uuid "f97b9e93-900f-4081-8114-28d3d3f229dc"))
-	(global_label "VREF_DDR" (shape input) (at 40.00 66.00 0) (effects (font (size 1.27 1.27))) (uuid "6b2a3b6d-330d-4ef4-80bf-2f3b74798b30"))
-	(global_label "GND" (shape input) (at 40.00 74.00 0) (effects (font (size 1.27 1.27))) (uuid "eb63fef7-5490-4c39-8112-0ea0bebceb69"))
-	(global_label "DDR_CK_P" (shape input) (at 40.00 82.00 0) (effects (font (size 1.27 1.27))) (uuid "2d462e64-f0c3-4724-9416-669990bd0d57"))
-	(global_label "DDR_CK_N" (shape input) (at 40.00 90.00 0) (effects (font (size 1.27 1.27))) (uuid "dd27ace9-a04b-4f72-952a-2c6ef1fb3e81"))
-	(global_label "DDR_RESET#" (shape input) (at 40.00 98.00 0) (effects (font (size 1.27 1.27))) (uuid "e765e10c-7e15-4a19-a276-a43cd1e61eb4"))
-	(text "32-Bit DDR3L Fly-By Bus Topology
-U2: Lower 16-bit (DQ[15:0], DQS[1:0])
-U3: Upper 16-bit (DQ[31:16], DQS[3:2])
-39.2-Ohm parallel termination to VTT at line terminus" (at 80.00 180.00 0) (effects (font (size 1.5 1.5))) (uuid "c7283ec9-e6d1-4a17-ba32-40343e7e8fa5"))
+	(symbol (lib_id "ORION_MEMORY:MT41K256M16TW-107-AAT_P") (at 139.70 160.02 0) (unit 1)
+		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+		(uuid "0cdd97e8-cdbd-45f1-b387-d722822f8229")
+		(property "Reference" "U2" (at 139.70 154.94 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "MT41K256M16TW-107-AAT:P" (at 139.70 165.10 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "ORION_MEMORY:Micron_FBGA-96_9x14mm_P0.8mm" (at 139.70 160.02 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "Micron MT41K256M16" (at 139.70 160.02 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(instances
+			(project "ORION-X-R1"
+				(path "/b6a4df0f-fe21-44c9-8873-16f1b7ffbe0a"
+					(reference "U2") (unit 1)
+				)
+			)
+		)
+	)
+	(wire (pts (xy 121.92 162.56) (xy 116.84 162.56)) (stroke (width 0) (type default)) (uuid "be9513be-1983-4fcb-8213-49d831e7d41a"))
+	(global_label "DDR_BA0" (shape input) (at 116.84 162.56 180) (effects (font (size 1.27 1.27))) (uuid "af52ea8f-83df-4142-acbc-74307d75aa34"))
+	(wire (pts (xy 121.92 165.10) (xy 116.84 165.10)) (stroke (width 0) (type default)) (uuid "1dee0830-0329-4172-9a2a-be91dde17918"))
+	(global_label "DDR_BA1" (shape input) (at 116.84 165.10 180) (effects (font (size 1.27 1.27))) (uuid "2dc04056-0034-4cfa-a677-16a4351b86ad"))
+	(wire (pts (xy 121.92 167.64) (xy 116.84 167.64)) (stroke (width 0) (type default)) (uuid "1afbbf03-e02c-4287-aac6-68f5255e09e1"))
+	(global_label "DDR_BA2" (shape input) (at 116.84 167.64 180) (effects (font (size 1.27 1.27))) (uuid "e7d6d74e-f947-4e24-be24-c04fe6a88252"))
+	(wire (pts (xy 121.92 172.72) (xy 116.84 172.72)) (stroke (width 0) (type default)) (uuid "afca87c3-a0fb-4afe-bc99-bf5663dc0d4e"))
+	(global_label "DDR_CK_P" (shape input) (at 116.84 172.72 180) (effects (font (size 1.27 1.27))) (uuid "08823af9-2251-404e-beec-0ab7bf781a7b"))
+	(wire (pts (xy 121.92 175.26) (xy 116.84 175.26)) (stroke (width 0) (type default)) (uuid "d48cca2d-4ffb-4f94-a2ee-f4576d630ea9"))
+	(global_label "DDR_CK_N" (shape input) (at 116.84 175.26 180) (effects (font (size 1.27 1.27))) (uuid "ec637596-510f-4ef9-8de8-ebfcfc987e0b"))
+	(wire (pts (xy 121.92 177.80) (xy 116.84 177.80)) (stroke (width 0) (type default)) (uuid "e32e9823-8edb-4533-832e-6004d6c3fb3c"))
+	(global_label "DDR_CKE" (shape input) (at 116.84 177.80 180) (effects (font (size 1.27 1.27))) (uuid "a509f9c3-d827-4ed8-ac74-bf73b5db4e80"))
+	(wire (pts (xy 121.92 187.96) (xy 116.84 187.96)) (stroke (width 0) (type default)) (uuid "88ab4409-d216-4c21-be0f-77524b47f48a"))
+	(global_label "DDR_RAS#" (shape input) (at 116.84 187.96 180) (effects (font (size 1.27 1.27))) (uuid "6e3a06ea-7304-4c17-997b-91b3a1d7cc8f"))
+	(wire (pts (xy 121.92 190.50) (xy 116.84 190.50)) (stroke (width 0) (type default)) (uuid "3074dc98-316a-446e-91bb-90d4ce28f63b"))
+	(global_label "DDR_CAS#" (shape input) (at 116.84 190.50 180) (effects (font (size 1.27 1.27))) (uuid "822941ac-a543-4b7d-9b74-cc027348db13"))
+	(wire (pts (xy 121.92 193.04) (xy 116.84 193.04)) (stroke (width 0) (type default)) (uuid "cbded6ba-8ec2-433a-8c0f-6365cb76ed54"))
+	(global_label "DDR_WE#" (shape input) (at 116.84 193.04 180) (effects (font (size 1.27 1.27))) (uuid "f0b45fd6-8763-49d8-84da-dd86aeb2be8d"))
+	(wire (pts (xy 121.92 195.58) (xy 116.84 195.58)) (stroke (width 0) (type default)) (uuid "0dd9bc28-a575-4ae2-a8e5-91aa913e7d3b"))
+	(global_label "DDR_ODT" (shape input) (at 116.84 195.58 180) (effects (font (size 1.27 1.27))) (uuid "b9023b20-1cfc-46e4-860c-f0a1048c92c8"))
+	(wire (pts (xy 144.78 116.84) (xy 149.86 116.84)) (stroke (width 0) (type default)) (uuid "b44cd482-cc38-40b5-8055-643c7254b508"))
+	(global_label "VREF_DDR" (shape power_in) (at 149.86 116.84 0) (effects (font (size 1.27 1.27))) (uuid "a379de0c-79b4-45e2-ad35-094907441a50"))
+	(no_connect (at 154.94 187.96) (uuid "bc6d9aeb-6504-4a7c-8152-998ba266c785"))
+	(no_connect (at 154.94 190.50) (uuid "80f54310-4ee0-4ac1-9a7f-ad0597277c89"))
+	(no_connect (at 154.94 193.04) (uuid "f8877949-2bc0-4902-b894-b22ec8d27144"))
+	(no_connect (at 154.94 195.58) (uuid "e46ff282-9a47-4f19-9596-4b5c2657e8c4"))
+	(no_connect (at 154.94 198.12) (uuid "1af6ce9f-95ca-4e67-954d-ab8e9a4f0fc0"))
+	(wire (pts (xy 157.48 142.24) (xy 162.56 142.24)) (stroke (width 0) (type default)) (uuid "820fcea2-fd62-41b4-9c5b-a6bc8c938f4f"))
+	(global_label "DDR_DQ8" (shape passive) (at 162.56 142.24 0) (effects (font (size 1.27 1.27))) (uuid "82839a3b-a1fa-40e4-9e44-07fb0eaa632b"))
+	(wire (pts (xy 157.48 144.78) (xy 162.56 144.78)) (stroke (width 0) (type default)) (uuid "40710ab5-1e05-4a51-ad93-cf72fdf665bc"))
+	(global_label "DDR_DQ9" (shape passive) (at 162.56 144.78 0) (effects (font (size 1.27 1.27))) (uuid "18eeda9a-a5b2-4b13-bf30-95fbb92e9a93"))
+	(wire (pts (xy 157.48 147.32) (xy 162.56 147.32)) (stroke (width 0) (type default)) (uuid "0c91e84d-bd3e-4417-874b-3f1594086d31"))
+	(global_label "DDR_DQ10" (shape passive) (at 162.56 147.32 0) (effects (font (size 1.27 1.27))) (uuid "2bfb43dd-487a-4d95-a9ec-e49ef4a924e0"))
+	(wire (pts (xy 157.48 149.86) (xy 162.56 149.86)) (stroke (width 0) (type default)) (uuid "02ef3149-e9e9-487e-bb5e-439b806dbeb4"))
+	(global_label "DDR_DQ11" (shape passive) (at 162.56 149.86 0) (effects (font (size 1.27 1.27))) (uuid "8288a48f-af39-473f-912e-2c2a83c5d41e"))
+	(wire (pts (xy 157.48 152.40) (xy 162.56 152.40)) (stroke (width 0) (type default)) (uuid "1710cf39-26d3-4e15-9acc-9f3b81e68a52"))
+	(global_label "DDR_DQ12" (shape passive) (at 162.56 152.40 0) (effects (font (size 1.27 1.27))) (uuid "5a82394b-2434-467e-8398-d0b92c0ef70f"))
+	(wire (pts (xy 157.48 154.94) (xy 162.56 154.94)) (stroke (width 0) (type default)) (uuid "681803de-3df0-427d-9797-e392cbbacd3b"))
+	(global_label "DDR_DQ13" (shape passive) (at 162.56 154.94 0) (effects (font (size 1.27 1.27))) (uuid "62bb93af-c347-4947-976a-8d7f56a07cae"))
+	(wire (pts (xy 157.48 157.48) (xy 162.56 157.48)) (stroke (width 0) (type default)) (uuid "b3b46c43-d3ff-4bc3-8ef5-b9d065294b10"))
+	(global_label "DDR_DQ14" (shape passive) (at 162.56 157.48 0) (effects (font (size 1.27 1.27))) (uuid "aaf8c15a-3255-4733-a51c-7f20b43c5087"))
+	(wire (pts (xy 157.48 160.02) (xy 162.56 160.02)) (stroke (width 0) (type default)) (uuid "95a3612c-4d43-48f5-b473-1fde7f721bec"))
+	(global_label "DDR_DQ15" (shape passive) (at 162.56 160.02 0) (effects (font (size 1.27 1.27))) (uuid "88ef2c7e-ee94-4795-b167-a2508ec300c5"))
+	(wire (pts (xy 157.48 165.10) (xy 162.56 165.10)) (stroke (width 0) (type default)) (uuid "18928c97-6441-48ef-8f61-1943c1930d8c"))
+	(global_label "DDR_DM0" (shape passive) (at 162.56 165.10 0) (effects (font (size 1.27 1.27))) (uuid "f1e69d4b-2b9d-49af-b6d8-94432d5a803b"))
+	(wire (pts (xy 157.48 167.64) (xy 162.56 167.64)) (stroke (width 0) (type default)) (uuid "b2d7cd1e-dbbf-4434-9072-a8f568504f9a"))
+	(global_label "DDR_DM1" (shape passive) (at 162.56 167.64 0) (effects (font (size 1.27 1.27))) (uuid "11ca43bd-51f0-43c0-9dc2-95a0cc711786"))
+	(wire (pts (xy 157.48 172.72) (xy 162.56 172.72)) (stroke (width 0) (type default)) (uuid "37e9b880-0eb3-4625-9427-95027895cd15"))
+	(global_label "DDR_DQS0_P" (shape passive) (at 162.56 172.72 0) (effects (font (size 1.27 1.27))) (uuid "f97dff67-4aee-4cc0-b143-c28a1fc69c02"))
+	(wire (pts (xy 157.48 175.26) (xy 162.56 175.26)) (stroke (width 0) (type default)) (uuid "df3551ec-57ca-4d2c-86d8-90f14b87ceaf"))
+	(global_label "DDR_DQS0_N" (shape passive) (at 162.56 175.26 0) (effects (font (size 1.27 1.27))) (uuid "c8443d1a-e68a-48ed-8fa1-e10e3c3f9e39"))
+	(wire (pts (xy 157.48 177.80) (xy 162.56 177.80)) (stroke (width 0) (type default)) (uuid "1fafa15c-cb3b-4fb8-acde-6506776bda1e"))
+	(global_label "DDR_DQS1_P" (shape passive) (at 162.56 177.80 0) (effects (font (size 1.27 1.27))) (uuid "3c6adc59-a760-4131-8931-4a9364e857c4"))
+	(wire (pts (xy 157.48 180.34) (xy 162.56 180.34)) (stroke (width 0) (type default)) (uuid "a00f6073-afbb-40f8-a38d-ce365f90ff39"))
+	(global_label "DDR_DQS1_N" (shape passive) (at 162.56 180.34 0) (effects (font (size 1.27 1.27))) (uuid "87f104e7-34ed-473e-8c5f-6906394ec796"))
+	(wire (pts (xy 157.48 185.42) (xy 162.56 185.42)) (stroke (width 0) (type default)) (uuid "3f3a3145-74e8-4e11-9168-f341bd02eae3"))
+	(global_label "DDR_ZQ_U2" (shape passive) (at 162.56 185.42 0) (effects (font (size 1.27 1.27))) (uuid "d643fef6-75ab-4203-ad4c-9e81358f9cdf"))
+	(symbol (lib_id "ORION_MEMORY:MT41K256M16TW-107-AAT_P") (at 340.36 160.02 0) (unit 1)
+		(exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+		(uuid "d6c28b76-e835-494c-888f-ee85047c6528")
+		(property "Reference" "U3" (at 340.36 154.94 0) (effects (font (size 1.27 1.27))))
+		(property "Value" "MT41K256M16TW-107-AAT:P" (at 340.36 165.10 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "ORION_MEMORY:Micron_FBGA-96_9x14mm_P0.8mm" (at 340.36 160.02 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "Micron MT41K256M16" (at 340.36 160.02 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(instances
+			(project "ORION-X-R1"
+				(path "/b6a4df0f-fe21-44c9-8873-16f1b7ffbe0a"
+					(reference "U3") (unit 1)
+				)
+			)
+		)
+	)
+	(wire (pts (xy 322.58 162.56) (xy 317.50 162.56)) (stroke (width 0) (type default)) (uuid "2cb115bc-ba65-4226-9f5d-fdd5a6411659"))
+	(global_label "DDR_BA0" (shape input) (at 317.50 162.56 180) (effects (font (size 1.27 1.27))) (uuid "297ee5eb-3a0a-4776-9920-ba7ebe6268bb"))
+	(wire (pts (xy 322.58 165.10) (xy 317.50 165.10)) (stroke (width 0) (type default)) (uuid "9b94f6bd-f1be-43e2-b102-3c22942012b3"))
+	(global_label "DDR_BA1" (shape input) (at 317.50 165.10 180) (effects (font (size 1.27 1.27))) (uuid "5fc7f79d-cf3b-45a5-b576-e89ac8bb056e"))
+	(wire (pts (xy 322.58 167.64) (xy 317.50 167.64)) (stroke (width 0) (type default)) (uuid "42a3613a-df43-4a0f-835f-3d469100d9ff"))
+	(global_label "DDR_BA2" (shape input) (at 317.50 167.64 180) (effects (font (size 1.27 1.27))) (uuid "6fbc89b1-0578-4216-931d-a2d757dfdfc0"))
+	(wire (pts (xy 322.58 172.72) (xy 317.50 172.72)) (stroke (width 0) (type default)) (uuid "e90da1a1-2253-4f82-bd9c-ab5c80548c23"))
+	(global_label "DDR_CK_P" (shape input) (at 317.50 172.72 180) (effects (font (size 1.27 1.27))) (uuid "f62d0b8f-95d7-46e1-9ae0-d7445f97836d"))
+	(wire (pts (xy 322.58 175.26) (xy 317.50 175.26)) (stroke (width 0) (type default)) (uuid "d823dea0-4787-40df-b014-72f1b6c66650"))
+	(global_label "DDR_CK_N" (shape input) (at 317.50 175.26 180) (effects (font (size 1.27 1.27))) (uuid "edfa7593-de84-4057-929c-20c81907c9ec"))
+	(wire (pts (xy 322.58 177.80) (xy 317.50 177.80)) (stroke (width 0) (type default)) (uuid "6fa04cd1-dc78-4a4d-8b8c-11a4a444a033"))
+	(global_label "DDR_CKE" (shape input) (at 317.50 177.80 180) (effects (font (size 1.27 1.27))) (uuid "9a2802d5-a126-405d-8863-d87523079574"))
+	(wire (pts (xy 322.58 187.96) (xy 317.50 187.96)) (stroke (width 0) (type default)) (uuid "90d6bea1-db55-4553-89d1-a9c41907bb74"))
+	(global_label "DDR_RAS#" (shape input) (at 317.50 187.96 180) (effects (font (size 1.27 1.27))) (uuid "412b7bcc-0351-4f29-bdb3-14420bc34ff3"))
+	(wire (pts (xy 322.58 190.50) (xy 317.50 190.50)) (stroke (width 0) (type default)) (uuid "65d515a5-9263-4764-a24d-4ecc89e8bbe1"))
+	(global_label "DDR_CAS#" (shape input) (at 317.50 190.50 180) (effects (font (size 1.27 1.27))) (uuid "27501fc3-ce7f-44e2-9e4c-05b1f382f42e"))
+	(wire (pts (xy 322.58 193.04) (xy 317.50 193.04)) (stroke (width 0) (type default)) (uuid "296ca24d-d353-4e27-8033-cd06c1c76eb4"))
+	(global_label "DDR_WE#" (shape input) (at 317.50 193.04 180) (effects (font (size 1.27 1.27))) (uuid "20fd168a-6469-44ad-a88c-b982fe1f3e96"))
+	(wire (pts (xy 322.58 195.58) (xy 317.50 195.58)) (stroke (width 0) (type default)) (uuid "02d1e242-cd73-44bc-967b-5ef07886cc51"))
+	(global_label "DDR_ODT" (shape input) (at 317.50 195.58 180) (effects (font (size 1.27 1.27))) (uuid "9f55db6d-96f9-4a10-b865-ea5636f17948"))
+	(wire (pts (xy 345.44 116.84) (xy 350.52 116.84)) (stroke (width 0) (type default)) (uuid "16410ec3-35c2-42b6-bff0-5381f9e89005"))
+	(global_label "VREF_DDR" (shape power_in) (at 350.52 116.84 0) (effects (font (size 1.27 1.27))) (uuid "81052aa2-1b2f-4553-89b3-7a755278141d"))
+	(no_connect (at 355.60 187.96) (uuid "da9567fb-09e4-4929-8d06-d9ecf8f38ea6"))
+	(no_connect (at 355.60 190.50) (uuid "a71e7f1d-8398-47bf-ad15-8dc8d22d090a"))
+	(no_connect (at 355.60 193.04) (uuid "e34e67d2-eee9-4846-b4bb-c13c07e2a2f8"))
+	(no_connect (at 355.60 195.58) (uuid "e53ea13a-b711-4e57-8a9c-80b25f7b3c8b"))
+	(no_connect (at 355.60 198.12) (uuid "5ab18843-5d57-4a74-a1a5-1d0dc87d59de"))
+	(wire (pts (xy 358.14 142.24) (xy 363.22 142.24)) (stroke (width 0) (type default)) (uuid "d9ac3c88-361f-4984-ba89-a5af9a955e03"))
+	(global_label "DDR_DQ24" (shape passive) (at 363.22 142.24 0) (effects (font (size 1.27 1.27))) (uuid "a312c0b6-1be9-462b-8f51-980f6d26f8de"))
+	(wire (pts (xy 358.14 144.78) (xy 363.22 144.78)) (stroke (width 0) (type default)) (uuid "8d2e7cd7-07b6-47a6-9676-c0ad1530f6a2"))
+	(global_label "DDR_DQ25" (shape passive) (at 363.22 144.78 0) (effects (font (size 1.27 1.27))) (uuid "209d9aa6-1aa0-46aa-9135-1779b7d24d9c"))
+	(wire (pts (xy 358.14 147.32) (xy 363.22 147.32)) (stroke (width 0) (type default)) (uuid "e18627f5-1dfc-4f91-9249-f149d97ab3c1"))
+	(global_label "DDR_DQ26" (shape passive) (at 363.22 147.32 0) (effects (font (size 1.27 1.27))) (uuid "bd5049b0-1797-48b7-8bc5-357bba404440"))
+	(wire (pts (xy 358.14 149.86) (xy 363.22 149.86)) (stroke (width 0) (type default)) (uuid "8e8843f1-d8aa-44e4-8acb-132a29310e24"))
+	(global_label "DDR_DQ27" (shape passive) (at 363.22 149.86 0) (effects (font (size 1.27 1.27))) (uuid "fc3490d1-aed3-4a44-900f-9db0f2f7065b"))
+	(wire (pts (xy 358.14 152.40) (xy 363.22 152.40)) (stroke (width 0) (type default)) (uuid "70bd1423-db49-420a-b240-ab7af1165082"))
+	(global_label "DDR_DQ28" (shape passive) (at 363.22 152.40 0) (effects (font (size 1.27 1.27))) (uuid "fe20a4ba-37d4-4455-a6de-0831337719e8"))
+	(wire (pts (xy 358.14 154.94) (xy 363.22 154.94)) (stroke (width 0) (type default)) (uuid "fc72e0a7-5b11-4c44-bc58-fa4be5f3e8fb"))
+	(global_label "DDR_DQ29" (shape passive) (at 363.22 154.94 0) (effects (font (size 1.27 1.27))) (uuid "fec62ac3-ef17-4950-949c-2344f249cd3f"))
+	(wire (pts (xy 358.14 157.48) (xy 363.22 157.48)) (stroke (width 0) (type default)) (uuid "007bb5fd-f64a-4ae0-8b54-5e2a46bfe50e"))
+	(global_label "DDR_DQ30" (shape passive) (at 363.22 157.48 0) (effects (font (size 1.27 1.27))) (uuid "73a8a30f-306e-474f-8aa3-4e2497e0dc5a"))
+	(wire (pts (xy 358.14 160.02) (xy 363.22 160.02)) (stroke (width 0) (type default)) (uuid "6d34443b-2c83-4869-ad50-977339a114d9"))
+	(global_label "DDR_DQ31" (shape passive) (at 363.22 160.02 0) (effects (font (size 1.27 1.27))) (uuid "a7ec9956-c43c-46e2-b6af-1ba75b47e640"))
+	(wire (pts (xy 358.14 165.10) (xy 363.22 165.10)) (stroke (width 0) (type default)) (uuid "d709637f-d47f-4730-b4a0-c33cd012a14d"))
+	(global_label "DDR_DM2" (shape passive) (at 363.22 165.10 0) (effects (font (size 1.27 1.27))) (uuid "1baff192-0e4d-43bc-8f6c-d975e2b43d6d"))
+	(wire (pts (xy 358.14 167.64) (xy 363.22 167.64)) (stroke (width 0) (type default)) (uuid "abfcfa6a-ed9e-489b-9f88-31746d16d41f"))
+	(global_label "DDR_DM3" (shape passive) (at 363.22 167.64 0) (effects (font (size 1.27 1.27))) (uuid "241ca72d-d8bc-4764-b4a2-ae835f3d015a"))
+	(wire (pts (xy 358.14 172.72) (xy 363.22 172.72)) (stroke (width 0) (type default)) (uuid "38993b30-0a43-4a37-9ec6-ddf434e939fa"))
+	(global_label "DDR_DQS2_P" (shape passive) (at 363.22 172.72 0) (effects (font (size 1.27 1.27))) (uuid "d08fb135-74dd-48af-8040-d8e1c2d3717a"))
+	(wire (pts (xy 358.14 175.26) (xy 363.22 175.26)) (stroke (width 0) (type default)) (uuid "3642938c-d4d4-487e-af0e-47ff73a428b7"))
+	(global_label "DDR_DQS2_N" (shape passive) (at 363.22 175.26 0) (effects (font (size 1.27 1.27))) (uuid "52b51c0d-9cc3-42da-ae16-1e14c9067bc8"))
+	(wire (pts (xy 358.14 177.80) (xy 363.22 177.80)) (stroke (width 0) (type default)) (uuid "0c1d07a8-a579-409d-952d-e93cd3574768"))
+	(global_label "DDR_DQS3_P" (shape passive) (at 363.22 177.80 0) (effects (font (size 1.27 1.27))) (uuid "0694f741-ed92-40d6-8e2b-65a2f21e901a"))
+	(wire (pts (xy 358.14 180.34) (xy 363.22 180.34)) (stroke (width 0) (type default)) (uuid "6d0a7f2b-6369-42a7-9916-91519ae01a92"))
+	(global_label "DDR_DQS3_N" (shape passive) (at 363.22 180.34 0) (effects (font (size 1.27 1.27))) (uuid "6a9629ea-bc41-479b-8d49-b16bfd6e42f8"))
+	(wire (pts (xy 358.14 185.42) (xy 363.22 185.42)) (stroke (width 0) (type default)) (uuid "e2dff520-4dfe-4a7e-902e-cd47db61e292"))
+	(global_label "DDR_ZQ_U3" (shape passive) (at 363.22 185.42 0) (effects (font (size 1.27 1.27))) (uuid "06acb9e7-7850-441d-85ca-b523fe573939"))
 	(sheet_instances (path "/b6a4df0f-fe21-44c9-8873-16f1b7ffbe0a" (page "4")))
 )

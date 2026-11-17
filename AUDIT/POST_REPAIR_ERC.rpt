@@ -1,0 +1,25 @@
+ERC report (2026-11-18T01:50:54+0530, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /01_PCIE_EDGE/
+
+***** Sheet /02_FPGA_CORE/
+
+***** Sheet /03_DDR3L_MEMORY/
+
+***** Sheet /04_FPGA_POWER/
+
+***** Sheet /05_DDR_POWER/
+
+***** Sheet /06_CLOCKING/
+
+***** Sheet /07_CONFIG_FLASH/
+
+***** Sheet /08_MANAGEMENT/
+
+***** Sheet /09_EXPANSION/
+
+***** Sheet /10_TEST_ACCESS/
+
+ ** ERC messages: 0  Errors 0  Warnings 0

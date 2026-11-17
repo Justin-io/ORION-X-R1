@@ -61,9 +61,8 @@ The ORION-X R1 power tree derives all operating rails from the host PCI Express 
 - **Switching Frequency ($f_{\text{sw}}$)**: $650\text{ kHz}$.
 - **Output Inductor Selection**:
   $$L = \frac{V_{\text{OUT}} \times (V_{\text{IN}} - V_{\text{OUT}})}{V_{\text{IN}} \times f_{\text{sw}} \times \Delta I_L}$$
-  Targeting ripple current $\Delta I_L = 30\% \times 15\text{A} = 4.5\text{A}$:
-  $$L = \frac{1.0 \times (12 - 1.0)}{12 \times 650\times 10^3 \times 4.5} = \frac{11.0}{3.51 \times 10^7} \approx 0.31\ \mu\text{H}$$
-  Selected component: **Coilcraft `XGL6060-331MEB` (0.33 µH, $I_{\text{sat}} = 33.2\text{A}$, DCR = $1.95\text{ m}\Omega$)**.
+  Optimized for transient response and high saturation margin at $f_{\text{sw}} = 650\text{ kHz}$ to $1000\text{ kHz}$:
+  Selected component: **Coilcraft `XGL6060-151MEB` (0.15 µH, $I_{\text{sat}} = 43\text{A}$, DCR = $1.34\text{ m}\Omega$)**.
 - **Output Capacitance**:
   - Bulk capacitance: $4 \times 47\ \mu\text{F}$ (1210 ceramic, 6.3V, X7R) + $1 \times 330\ \mu\text{F}$ (polymer tantalum, 2.5V, $6\text{ m}\Omega$ ESR).
   - High-frequency array: $10 \times 10\ \mu\text{F}$ (0603) + $20 \times 0.47\ \mu\text{F}$ (0402).

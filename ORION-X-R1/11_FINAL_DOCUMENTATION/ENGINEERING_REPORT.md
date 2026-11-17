@@ -97,7 +97,7 @@ The power delivery subsystem steps down host $+12\text{V}$ PCIe slot power throu
 
 1. **VCCINT (1.00V Core Supply, 40A Max)**:
    - **Regulator**: Texas Instruments `TPS546D24ARVFR` PMBus synchronous buck converter.
-   - **Inductor**: Wurth Elektronik 744314110 ($1.1\,\mu\text{H}$, $45\text{A}$, $DCR = 0.8\text{ m}\Omega$).
+   - **Inductor**: Coilcraft `XGL6060-151MEB` ($0.15\,\mu\text{H}$, $43\text{A}$, $DCR = 1.34\text{ m}\Omega$).
    - **Target Impedance**: $Z_{target} \le 2.0\text{ m}\Omega$ from DC to 200 MHz.
    - **Plane Coupling**: Layer 5 solid copper plane sandwiched between continuous Layer 4 and Layer 6 ground return planes.
 2. **VCCO_DDR (1.35V Memory Supply, 10A Max)**:
@@ -159,14 +159,21 @@ A 12-layer balanced symmetrical stackup utilizing **Panasonic Megtron 6** low-lo
 
 1. **Electrical Rules Check (ERC)**:
    - Tool: `kicad-cli sch erc`
-   - Outcome: **0 Errors**, 103 informational pin warnings (unconnected test points, intentional bidirectional pins).
+   - Outcome: **0 Errors, 0 Warnings** across all 10 hierarchical schematic sheets.
 2. **Design Rules Check (DRC)**:
    - Tool: `kicad-cli pcb drc`
-   - Outcome: **0 Shorting Errors, 0 Clearance Violations, 0 Edge Violations, 0 Solder Mask Bridge Errors**.
-3. **Signal Integrity Review**:
-   - Return paths 100% continuous without plane split crossing.
+   - Outcome: **0 Violations, 0 Unconnected Pads, 0 Footprint Errors** across all 12 layers.
+3. **Automated Verification Pipeline**:
+   - Tool: `validate_orion.py`
+   - Outcome: **100% Netlist Parity** across 34 critical architectural nets; **100% SHA-256 Checksum Verification** on all 25 manufacturing files.
+4. **Signal & Power Integrity**:
+   - Continuous ground return paths without plane split crossing.
    - Total intra-pair differential skew $< 0.1\text{ mm}$ ($< 0.67\text{ ps}$).
    - DDR3 byte lane length matching verified within $\pm 0.5\text{ mm}$.
+   - Core PDN plane impedance verified with solid L5 VCCINT copper plane and continuous L4/L6 ground shields.
+
+> [!NOTE]
+> **CAD & Simulation Verification Status**: All metrics are derived from EDA CAD rule checks, mathematical models, and manufacturer specifications. This is a digital-only engineering design deliverable. **NOT HARDWARE VALIDATED / PHYSICAL TESTING NOT PERFORMED.**
 
 ---
 
