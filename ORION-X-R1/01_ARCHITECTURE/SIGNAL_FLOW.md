@@ -42,3 +42,4 @@ sequenceDiagram
 6. **Done Transition**: Once bitstream CRC is validated, FPGA releases `DONE_0` (open-drain, pulled high to 3.3V via $330\ \Omega$ + Green LED).
 7. **PCIe Link Training**: Integrated PCIe block enters LTSSM Detect state, detects host receiver termination, and transitions through Polling to L0 state at Gen1 (2.5 GT/s), auto-negotiating to Gen2 (5.0 GT/s).
 8. **MIG Calibration**: DDR3 controller performs write leveling, read DQS centering, and multi-rank calibration against DRAM devices `U2` and `U3`. `CALIB_DONE` LED illuminates green. Accelerator card is fully online.
+

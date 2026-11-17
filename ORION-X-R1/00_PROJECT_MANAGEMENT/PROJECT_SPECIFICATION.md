@@ -37,3 +37,4 @@
 - **Subsystem E (Clocking)**: 100 MHz PCIe host clock, 200 MHz local differential system oscillator, clock distribution and conditioning.
 - **Subsystem F (Power Distribution)**: TI `TPS546D24A` (1.0V VCCINT @ 15A), TI `TPSM63610` (1.35V VCCO_DDR @ 4A), TI `TPSM63610` (1.8V VCCAUX @ 2.5A), TI `TPSM63610` (+3.3V_SYS @ 2.5A), TI `TPS51200` (VTT/VREF @ ±2A), TI `TPS7A8500` (MGTAVCC 1.0V & MGTAVTT 1.2V), PGOOD sequencing ladder.
 - **Subsystem G (Management & Expansion)**: UART-to-host interface, I2C temperature/voltage telemetry bus, 8 user status LEDs, 20-pin GPIO expansion header, reset pushbutton.
+

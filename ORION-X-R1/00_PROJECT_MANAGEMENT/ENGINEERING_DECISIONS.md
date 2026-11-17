@@ -55,3 +55,4 @@
   3. 12-layer symmetric stackup: 6 signal layers, 4 continuous ground planes, 2 dedicated power planes.
 - **Decision**: Selected **12-Layer Symmetric Stackup (1.60 mm finished thickness)**.
 - **Justification**: Provides uninterrupted stripline and microstrip ground references for all high-speed signals, isolates sensitive MGT transceivers, and maintains mechanical symmetry to prevent board warpage during reflow.
+

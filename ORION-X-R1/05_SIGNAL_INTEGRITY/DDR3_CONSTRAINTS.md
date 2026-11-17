@@ -75,3 +75,4 @@ NetClass "DDR_ADDR":
 3. Traces continue uninterrupted on Layer 10 to Device 1 (`U3: MT41K256M16`).
 4. Past Device 1, traces transition to Layer 1 / Layer 12 through-vias and connect directly to $39.2\ \Omega \pm 1\%$ surface-mount resistor arrays tied to the $V_{\text{TT\_DDR}}$ power copper plane.
 5. Stub length from the main fly-by trunk to any DRAM ball pad must not exceed $1.20\text{ mm}$ ($47\text{ mil}$).
+

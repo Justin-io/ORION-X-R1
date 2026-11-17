@@ -7,3 +7,4 @@
   (lib (name "ORION_CONNECTORS")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/SYMBOLS/ORION_CONNECTORS.kicad_sym")(options "")(descr "ORION-X Connector Library"))
   (lib (name "ORION_MISC")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/SYMBOLS/ORION_MISC.kicad_sym")(options "")(descr "ORION-X Misc Components Library"))
 )
+

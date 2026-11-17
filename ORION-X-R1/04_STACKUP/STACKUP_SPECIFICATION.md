@@ -46,3 +46,4 @@
 **Total Dielectric Thickness**: $100 + 130 + 130 + 150 + 150 + 200 + 150 + 150 + 130 + 130 + 100 = 1470\ \mu\text{m}$ ($1.47\text{ mm}$).
 **Total Copper Thickness**: $35 + 17.5 + 17.5 + 17.5 + 35 + 17.5 + 17.5 + 35 + 17.5 + 17.5 + 17.5 + 35 = 279\ \mu\text{m}$ ($0.279\text{ mm}$).
 **Finished Board Thickness**: $1.470\text{ mm} + 0.279\text{ mm} = 1.60\text{ mm} \pm 10\%$.
+

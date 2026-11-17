@@ -185,3 +185,4 @@ Hardware-enforced cascade using active `PGOOD` chaining:
 2. Formulate `00_PROJECT_MANAGEMENT/ENGINEERING_DECISIONS.md` and `RISK_REGISTER.md`.
 3. Construct project-specific KiCad 9 symbol and footprint libraries (`ORION_FPGA`, `ORION_MEMORY`, `ORION_POWER`, `ORION_CONNECTORS`, `ORION_MISC`).
 4. Generate the complete hierarchical schematic across all 11 sheets with ERC validation.
+

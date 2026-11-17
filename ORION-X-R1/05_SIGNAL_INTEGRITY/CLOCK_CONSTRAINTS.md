@@ -21,3 +21,4 @@
 1. **Guard Traces / Spacing**: All differential clock pairs must maintain a minimum physical clearance of $4W$ ($0.50\text{ mm}$ to $0.80\text{ mm}$) to any adjacent switching data bus, power rail, or clock trace.
 2. **Reference Continuity**: Clocks routed on L1 reference solid L2 Ground. Clocks routed on L3 reference solid L2 and L4 Ground. Clocks routed on L10 reference solid L9 and L11 Ground.
 3. **Power Supply Filtering**: Oscillator `Y1` 3.3V supply is isolated via an SMD ferrite bead (Murata BLM18PG121SN1D, $120\ \Omega$ @ 100MHz) and decoupled with a parallel combination of $10\ \mu\text{F}$ (0603) and $0.1\ \mu\text{F}$ (0402) ceramic capacitors.
+

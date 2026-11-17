@@ -15,3 +15,4 @@
 | **RSK-006** | Configuration / Boot | QSPI Flash boot failure due to FPGA Bank 0/14 voltage incompatibility. | HIGH | LOW | Hardwired `CFGBVS_0` to `VCCO_0` (3.3V) and powered Bank 14 at 3.3V, natively matching the Macronix 3.3V NOR Flash logic levels. | LOW | LOW | **MITIGATED** |
 | **RSK-007** | PCIe CEM Compliance | Card edge finger damage or impedance discontinuity on host motherboard insertion. | MEDIUM | MEDIUM | Enforced $85\ \Omega$ differential microstrip geometry, $20^\circ$ edge chamfer, and specified 30 µin hard gold plating over 150 µin electrolytic nickel. | LOW | LOW | **MITIGATED** |
 | **RSK-008** | Power Sequencing | FPGA latch-up or damaged I/O buffers resulting from out-of-order power rail ramp. | CRITICAL | LOW | Hardware PGOOD cascade ladder strictly enforcing $V_{\text{CCINT}} \rightarrow V_{\text{CCAUX}} \rightarrow V_{\text{CCO}} \rightarrow V_{\text{TT}}$. | LOW | LOW | **MITIGATED** |
+

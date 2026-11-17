@@ -38,3 +38,4 @@ At 5.0 Gbps (PCIe Gen2 Nyquist frequency = $2.5\text{ GHz}$):
 - For a typical PCIe trace run on ORION-X of $50\text{ mm}$ ($2.0\text{ inches}$):
   $$\text{Insertion Loss} \approx 0.42\text{ dB}$$
   This is far below the PCI-SIG add-in card insertion loss budget of $4.0\text{ dB}$, guaranteeing wide, open eye diagrams at the FPGA receiver.
+

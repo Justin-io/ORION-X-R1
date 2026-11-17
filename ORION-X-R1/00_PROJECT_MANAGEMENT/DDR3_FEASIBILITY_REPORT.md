@@ -99,3 +99,4 @@ In accordance with Xilinx 7-Series Memory Interface Solutions Guide (UG586), a 3
 ### 6. CONCLUSION
 
 The 32-bit DDR3L memory subsystem architecture meets all physical, electrical, and timing constraints defined by AMD UG586 and JEDEC JESD79-3. Signal routing and decoupling strategies are fully verified.
+

@@ -53,3 +53,4 @@ NetClass "PCIE_REFCLK":
 1. **Ground Return Vias**: Where differential pairs transition between L1 and L3, two ground stitching vias must be placed symmetrically on both sides of the differential pair within $0.50\text{ mm}$ of the signal via pads.
 2. **Layer Transitions**: Maximum of 2 via transitions per differential channel (1 breakout via at FPGA BGA, 1 arrival via at edge connector / capacitor).
 3. **No Split Planes**: Differential traces must never cross splits or voids in their reference planes (L2 and L4).
+

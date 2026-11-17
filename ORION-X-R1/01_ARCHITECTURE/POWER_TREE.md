@@ -50,3 +50,4 @@ flowchart TD
 | **MGTAVCC** | VCCO_DDR | `U10: TPS7A8500` | Ultra-Low Noise | 1.00 V | $\pm 3\%$ | 1.8 A | 1.8 W | $< 10\text{ mV}_{\text{p-p}}$ |
 | **MGTAVTT** | VCCAUX | `U11: TPS7A8500` | Ultra-Low Noise | 1.20 V | $\pm 3\%$ | 1.5 A | 1.8 W | $< 10\text{ mV}_{\text{p-p}}$ |
 | **MGTVCCAUX**| VCCAUX | LC Filter Island | Passive Filter | 1.80 V | $\pm 5\%$ | 0.4 A | 0.72 W | $< 5\text{ mV}_{\text{p-p}}$ |
+

@@ -134,3 +134,4 @@ The memory pin assignment completely obeys AMD 7-Series MIG byte group placement
 3. System reference clock (`SYS_CLK_P/N`) is placed on Bank 33 `MRCC` clock-capable pins.
 4. Memory differential clock (`DDR_CK_P/N`) is placed on Bank 33 dedicated `DQS` differential clock pins.
 5. All address and control lines are localized to Bank 33, maintaining short, symmetric fly-by traces to both DRAM devices.
+

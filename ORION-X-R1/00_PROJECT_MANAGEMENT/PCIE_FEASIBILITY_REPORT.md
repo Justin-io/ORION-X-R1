@@ -78,3 +78,4 @@ The `PCIE_X0Y0` primitive in the `XC7K160T-2FFG676C` is physically tied to the G
 ### 6. CONCLUSION
 
 The PCI Express Gen2 x4 interface architecture conforms completely with PCI-SIG CEM 2.0 and AMD Xilinx Kintex-7 guidelines. Physical routing constraints and component selections are verified.
+

@@ -22,3 +22,4 @@
 | **FPGA Bank 15 (HR)** | Management Header (J3) | `UART_TX`, `RX`, `I2C_SCL`, `SDA` | 4 nets | 3.3V LVCMOS | $50\ \Omega$ SE | 115,200 Baud / 400 kHz | ESD Protection Diode Array |
 | **FPGA Bank 15 (HR)** | Status LEDs | `LED[7:0]` | 8 nets | 3.3V LVCMOS | N/A | Static / Blink | $330\ \Omega$ Current Limiting Resistors |
 | **FPGA Bank 12 (HR)** | GPIO Header (J4) | `GPIO[15:0]` | 16 nets | 3.3V LVCMOS | $50\ \Omega$ SE | Up to 100 MHz | Damping Resistors / ESD Arrays |
+

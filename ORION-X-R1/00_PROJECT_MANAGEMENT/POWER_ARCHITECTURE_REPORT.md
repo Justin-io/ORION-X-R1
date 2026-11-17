@@ -134,3 +134,4 @@ The sequencing ladder is implemented via hardware `PGOOD`-to-`ENABLE` chaining:
 ### 5. CONCLUSION
 
 The power distribution network satisfies all ripple, transient, and sequencing requirements of the AMD Kintex-7 FPGA and Micron DDR3L memory system. The thermal footprint and power supply rejection ratio (PSRR) are engineered for continuous high-performance accelerator operation.
+

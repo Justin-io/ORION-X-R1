@@ -36,3 +36,4 @@
 - Board edge clearance: $0.350\text{ mm}$ (13.8 mil) to copper traces, $0.500\text{ mm}$ to plane copper.
 - Aspect ratio (Board thickness / drill): $1.60\text{ mm} / 0.250\text{ mm} = 6.4:1$ (well within standard plating limits of $\le 10:1$).
 - Surface finish: Electroless Nickel Immersion Gold (ENIG) — $3-5\ \mu\text{m}$ Ni, $0.05-0.1\ \mu\text{m}$ Au. Hard gold on PCIe edge fingers: $30\ \mu\text{in}$ ($0.76\ \mu\text{m}$) hard gold over $150\ \mu\text{in}$ ($3.8\ \mu\text{m}$) electrolytic nickel.
+

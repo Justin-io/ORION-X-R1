@@ -7,3 +7,4 @@
   (lib (name "ORION_CONNECTORS")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/FOOTPRINTS/ORION_CONNECTORS.pretty")(options "")(descr "ORION-X Connector Footprints"))
   (lib (name "ORION_MISC")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/FOOTPRINTS/ORION_MISC.pretty")(options "")(descr "ORION-X Misc Footprints"))
 )
+
