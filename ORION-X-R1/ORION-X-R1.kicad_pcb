@@ -1102,7 +1102,7 @@
 			(uuid "22581845-ed23-42f3-a8a3-92237f10bd56")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1725,7 +1725,7 @@
 			(uuid "6ebbee75-9815-490e-996b-5659aa1404d3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_VQFN-RGR-20-1EP_3.5x3.5mm_Pitch0.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2062,7 +2062,7 @@
 			(uuid "c112be1c-4540-4d3f-89e9-3bb6e76f668a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2433,7 +2433,7 @@
 			(uuid "f5e3eb04-64fa-4858-b480-4798992dff8f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x07_P2.00mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_2x07_P2.00mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2860,7 +2860,7 @@
 			(uuid "53b7b4e0-39c4-4bb8-b895-5f936c27a805")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3320,7 +3320,7 @@
 			(uuid "87d6050b-f292-4fc5-aee1-fdf01cd94600")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16W_7.5x10.3mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4304,7 +4304,7 @@
 			(uuid "8b978203-f326-4a73-9b09-1a34fc990dc1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4841,7 +4841,7 @@
 			(uuid "b71f4600-ab21-4cd9-9d00-e46896bfdb63")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5774,7 +5774,7 @@
 			(uuid "1af584cc-f565-4d5b-8884-13dbb5684872")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RHA0040B_VQFN-40-1EP_6x6mm_P0.5mm_EP4.15x4.15mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-38-1EP_5x7mm_P0.5mm_EP3.15x5.15mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6078,7 +6078,7 @@
 			(uuid "3662a00f-562d-46d4-9f8c-4260351513da")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Oscillator.3dshapes/Oscillator_SMD_SiTime_SiT9121-6Pin_3.2x2.5mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6615,7 +6615,7 @@
 			(uuid "521c10a2-f7c8-486f-93df-13c2f25dcfa1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7238,7 +7238,7 @@
 			(uuid "bfbea260-e1ed-4f3f-b515-c628c8a8fe7a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-20-1EP_3.5x3.5mm_P0.5mm_EP2x2mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_VQFN-RGR-20-1EP_3.5x3.5mm_Pitch0.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8222,7 +8222,7 @@
 			(uuid "369d8eaf-d467-45eb-a2cc-bd931a86d905")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Micron_FBGA-96_9x14mm_Layout9x16_P0.8mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/BGA-96_9.0x13.0mm_Layout2x3x16_P0.8mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8497,7 +8497,7 @@
 			(uuid "083f501e-5db9-4ceb-84bd-b05438606858")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_6.3x6.3_H3.step"
+		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Bourns_SRP6060FA.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8924,7 +8924,7 @@
 			(uuid "dc644101-bd3f-4dae-bb48-85f5fe161809")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14552,7 +14552,7 @@
 			(uuid "e8af6711-60d9-4d00-baf8-cdb43851caef")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/Xilinx_FFG676.step"
+		(model "/home/justin/Desktop/orion/ORION-X-R1/03_KICAD/3D_MODELS/Xilinx_FFG676.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
