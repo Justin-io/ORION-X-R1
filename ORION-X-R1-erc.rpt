@@ -1,0 +1,334 @@
+ERC report (2026-11-17T05:47:30+0530, Encoding UTF8)
+
+***** Sheet /
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 50.00 mm): Global Label 'PCIE_TX0_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 57.00 mm): Global Label 'PCIE_TX0_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 64.00 mm): Global Label 'PCIE_RX0_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 71.00 mm): Global Label 'PCIE_RX0_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 78.00 mm): Global Label 'PCIE_TX1_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 85.00 mm): Global Label 'PCIE_TX1_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 92.00 mm): Global Label 'PCIE_RX1_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 99.00 mm): Global Label 'PCIE_RX1_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 106.00 mm): Global Label 'PCIE_TX2_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 113.00 mm): Global Label 'PCIE_TX2_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 120.00 mm): Global Label 'PCIE_RX2_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 127.00 mm): Global Label 'PCIE_RX2_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 134.00 mm): Global Label 'PCIE_TX3_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 141.00 mm): Global Label 'PCIE_TX3_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 148.00 mm): Global Label 'PCIE_RX3_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 155.00 mm): Global Label 'PCIE_RX3_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 162.00 mm): Global Label 'PCIE_CLK_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 169.00 mm): Global Label 'PCIE_CLK_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 176.00 mm): Global Label 'PCIE_PERST#'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 183.00 mm): Global Label 'PCIE_WAKE#'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 40.00 mm): Global Label 'PCIE_TX0_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 45.00 mm): Global Label 'PCIE_TX0_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 50.00 mm): Global Label 'PCIE_RX0_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 55.00 mm): Global Label 'PCIE_RX0_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 60.00 mm): Global Label 'PCIE_TX1_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 65.00 mm): Global Label 'PCIE_TX1_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 70.00 mm): Global Label 'PCIE_RX1_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 75.00 mm): Global Label 'PCIE_RX1_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 80.00 mm): Global Label 'PCIE_TX2_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 85.00 mm): Global Label 'PCIE_TX2_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 90.00 mm): Global Label 'PCIE_RX2_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 95.00 mm): Global Label 'PCIE_RX2_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 100.00 mm): Global Label 'PCIE_TX3_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 105.00 mm): Global Label 'PCIE_TX3_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 110.00 mm): Global Label 'PCIE_RX3_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 115.00 mm): Global Label 'PCIE_RX3_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 120.00 mm): Global Label 'PCIE_CLK_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 125.00 mm): Global Label 'PCIE_CLK_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 130.00 mm): Global Label 'PCIE_PERST#'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(350.00 mm, 135.00 mm): Global Label 'PCIE_WAKE#'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 50.00 mm): Global Label 'VCCO_DDR'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 58.00 mm): Global Label 'VTT_DDR'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 66.00 mm): Global Label 'VREF_DDR'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 74.00 mm): Global Label 'GND'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 82.00 mm): Global Label 'DDR_CK_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 90.00 mm): Global Label 'DDR_CK_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 98.00 mm): Global Label 'DDR_RESET#'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 40.00 mm): Global Label '+12V_PCIE'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 48.00 mm): Global Label 'VCCINT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 56.00 mm): Global Label 'VCCBRAM'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 64.00 mm): Global Label 'VCCAUX'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 72.00 mm): Global Label '+3.3V_SYS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 80.00 mm): Global Label 'MGTAVCC'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 88.00 mm): Global Label 'MGTAVTT'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 96.00 mm): Global Label 'GND'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 104.00 mm): Global Label 'VCCINT_PGOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(280.00 mm, 112.00 mm): Global Label 'VCCAUX_PGOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 40.00 mm): Global Label '+12V_PCIE'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 48.00 mm): Global Label '+3.3V_SYS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 56.00 mm): Global Label 'VCCO_DDR'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 64.00 mm): Global Label 'VTT_DDR'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 72.00 mm): Global Label 'VREF_DDR'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 80.00 mm): Global Label 'VCCO_DDR_PGOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(40.00 mm, 88.00 mm): Global Label 'GND'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 50.00 mm): Global Label '+3.3V_SYS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 58.00 mm): Global Label 'GND'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 66.00 mm): Global Label 'SYS_CLK_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 74.00 mm): Global Label 'SYS_CLK_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 82.00 mm): Global Label 'PCIE_CLK_P'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 90.00 mm): Global Label 'PCIE_CLK_N'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 40.00 mm): Global Label 'SPI_CS#'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 47.00 mm): Global Label 'FPGA_CCLK'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 54.00 mm): Global Label 'SPI_MOSI_IO0'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 61.00 mm): Global Label 'SPI_MISO_IO1'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 68.00 mm): Global Label 'SPI_WP_IO2'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 75.00 mm): Global Label 'SPI_HOLD_IO3'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 82.00 mm): Global Label 'FPGA_DONE'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 89.00 mm): Global Label 'FPGA_INIT_B'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 96.00 mm): Global Label 'FPGA_PROG_B'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 103.00 mm): Global Label '+3.3V_SYS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(240.00 mm, 110.00 mm): Global Label 'GND'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 50.00 mm): Global Label 'UART_TX'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 58.00 mm): Global Label 'UART_RX'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 66.00 mm): Global Label 'I2C_SCL'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 74.00 mm): Global Label 'I2C_SDA'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 82.00 mm): Global Label 'BTN_RST'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 90.00 mm): Global Label 'SYS_PGOOD'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 98.00 mm): Global Label '+3.3V_SYS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 106.00 mm): Global Label 'GND'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 50.00 mm): Global Label 'GPIO_0'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 58.00 mm): Global Label 'GPIO_1'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 66.00 mm): Global Label 'GPIO_2'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 74.00 mm): Global Label 'GPIO_3'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 82.00 mm): Global Label 'GPIO_4'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 90.00 mm): Global Label 'GPIO_5'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 98.00 mm): Global Label 'GPIO_6'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 106.00 mm): Global Label 'GPIO_7'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 50.00 mm): Global Label 'JTAG_TCK'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 58.00 mm): Global Label 'JTAG_TMS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 66.00 mm): Global Label 'JTAG_TDI'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 74.00 mm): Global Label 'JTAG_TDO'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 82.00 mm): Global Label '+3.3V_SYS'
+[global_label_dangling]: Global label not connected anywhere else in the schematic
+    ; warning
+    @(220.00 mm, 90.00 mm): Global Label 'GND'
+
+***** Sheet /01_PCIE_EDGE/
+
+***** Sheet /02_FPGA_CORE/
+
+***** Sheet /03_DDR3L_MEMORY/
+
+***** Sheet /04_FPGA_POWER/
+
+***** Sheet /05_DDR_POWER/
+
+***** Sheet /06_CLOCKING/
+
+***** Sheet /07_CONFIG_FLASH/
+
+***** Sheet /08_MANAGEMENT/
+
+***** Sheet /09_EXPANSION/
+
+***** Sheet /10_TEST_ACCESS/
+
+ ** ERC messages: 103  Errors 0  Warnings 103

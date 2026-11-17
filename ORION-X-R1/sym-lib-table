@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ORION_FPGA")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/SYMBOLS/ORION_FPGA.kicad_sym")(options "")(descr "ORION-X Kintex-7 FPGA Library"))
+  (lib (name "ORION_MEMORY")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/SYMBOLS/ORION_MEMORY.kicad_sym")(options "")(descr "ORION-X DDR3L Memory Library"))
+  (lib (name "ORION_POWER")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/SYMBOLS/ORION_POWER.kicad_sym")(options "")(descr "ORION-X Power Management Library"))
+  (lib (name "ORION_CLOCK")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/SYMBOLS/ORION_CLOCK.kicad_sym")(options "")(descr "ORION-X Oscillator Library"))
+  (lib (name "ORION_CONNECTORS")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/SYMBOLS/ORION_CONNECTORS.kicad_sym")(options "")(descr "ORION-X Connector Library"))
+  (lib (name "ORION_MISC")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/SYMBOLS/ORION_MISC.kicad_sym")(options "")(descr "ORION-X Misc Components Library"))
+)

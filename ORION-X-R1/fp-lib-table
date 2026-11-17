@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ORION_FPGA")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/FOOTPRINTS/ORION_FPGA.pretty")(options "")(descr "ORION-X FPGA Footprints"))
+  (lib (name "ORION_MEMORY")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/FOOTPRINTS/ORION_MEMORY.pretty")(options "")(descr "ORION-X Memory Footprints"))
+  (lib (name "ORION_POWER")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/FOOTPRINTS/ORION_POWER.pretty")(options "")(descr "ORION-X Power Footprints"))
+  (lib (name "ORION_CLOCK")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/FOOTPRINTS/ORION_CLOCK.pretty")(options "")(descr "ORION-X Clock Footprints"))
+  (lib (name "ORION_CONNECTORS")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/FOOTPRINTS/ORION_CONNECTORS.pretty")(options "")(descr "ORION-X Connector Footprints"))
+  (lib (name "ORION_MISC")(type "KiCad")(uri "${KIPRJMOD}/03_KICAD/FOOTPRINTS/ORION_MISC.pretty")(options "")(descr "ORION-X Misc Footprints"))
+)
