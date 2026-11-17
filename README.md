@@ -273,3 +273,4 @@ python3 ORION-X-R1/07_PCB/import_and_verify.py
 - **Hardware Design**: Licensed under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](https://ohwr.org/cernohl) (CERN-OHL-S).
 - **Documentation**: Licensed under Creative Commons Attribution-ShareAlike 4.0 International ([CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
 - **Disclaimer**: This is a digital hardware design project produced for research and computational acceleration. While all electrical, physical, and manufacturing rules have been verified, physical deployment requires thermal airflow provisioning ($\ge 200\text{ LFM}$) under full 40A FPGA core load.
+
